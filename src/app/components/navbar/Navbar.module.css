@@ -1,0 +1,38 @@
+.topBar {
+    width: 100%;
+    background-color: transparent;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+  }
+  
+  .navigation a {
+    position: relative;
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+    margin-right: 4em;
+  }
+  
+  .navigation a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Adjust the thickness of the underline as needed */
+    bottom: 0;
+    left: 0;
+    background-color: #fff; /* Adjust the color of the underline as needed */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; /* Adjust the transition duration and easing as needed */
+  }
+  
+  .navigation a:hover::before {
+    opacity: 1;
+  }
+  
