@@ -46,6 +46,19 @@ export default function Home() {
                 <h1>See Our Museum</h1>
             </div>
 
+            <div className={styles.line}>
+                <h1>Rooms</h1>
+            </div>
+
+            <div className={styles.infoWrapper}>
+                <div className={`${styles.room} ${styles.room1}`}>
+                    <h1>Red Room</h1>
+                </div>
+                <div className={`${styles.room} ${styles.room2}`}>
+                    <h1>Blue Room</h1>
+                </div>
+            </div>
+
         </div>
     </div>
   );

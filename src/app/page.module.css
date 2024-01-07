@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 90vh;
-    background: url('../../images/151.jpg') no-repeat center center fixed;
+    background: url('../../images/144.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
 }
@@ -81,6 +81,7 @@
     background: url('../../images/155.jpg') no-repeat center center fixed;
     background-size: cover;
     transition: 0.3s ease-in-out;
+    margin-bottom: 5em;
 }
 
 .museumDiv h1 {
@@ -89,4 +90,57 @@
 
 .museumDiv:hover {
     opacity: 0.8;
+}
+
+/**********************************************************************/
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+  
+.line h1 {
+    margin-right: 0.5em;
+    font-size: 2em;
+}
+  
+.line::after {
+    content: '';
+    flex-grow: 1;
+    border-bottom: 1px solid white;
+    margin-left: 1em;
+}
+  
+
+.room {
+    position: relative;
+    padding: 3em;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.room:hover {
+    opacity: 0.8;
+}
+
+.room1 {
+    height: 20em;
+    background: url('../../images/40.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:60%
+}
+
+.room2 {
+    margin-left: 3em;
+    height: 20em;
+    background: url('../../images/23.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:40%
 }
