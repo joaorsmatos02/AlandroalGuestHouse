@@ -1,12 +1,13 @@
 import NavBar from './components/navbar/Navbar'
+import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <NavBar/>
-      <div>
-        teste
-      </div>
-    </main>
-  )
+    <div>
+        <NavBar />
+        <div className={styles.background}>
+            <h1>Alandroal Guest House</h1>
+        </div>
+    </div>
+  );
 }

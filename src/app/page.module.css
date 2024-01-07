@@ -1,0 +1,18 @@
+/* page.module.css */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+    background: url('../../images/151.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background h1 {
+    margin-left: 7em;
+    margin-top: 7em;
+    font-style: italic; 
+    font-size: 2em;
+}
