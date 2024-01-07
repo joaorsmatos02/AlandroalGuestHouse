@@ -1,7 +1,6 @@
 .topBar {
   width: 100%;
   background-color: transparent;
-  transition: 0.3s ease-in;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -9,6 +8,7 @@
 }
 
 .topBar.scrolled {
+  transition: 0.3s ease-in;
   position: fixed;
   background-color: black;
 }
