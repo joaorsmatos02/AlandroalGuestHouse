@@ -144,3 +144,37 @@
     background-size:cover;
     width:40%
 }
+
+.room3 {
+    height: 20em;
+    background: url('../../images/84.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:30%
+}
+
+.room4 {
+    margin-left: 3em;
+    height: 20em;
+    background: url('../../images/25.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:70%
+}
+
+.room5 {
+    height: 20em;
+    background: url('../../images/90.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:50%
+}
+
+.room6 {
+    margin-left: 3em;
+    height: 20em;
+    background: url('../../images/46.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:50%
+}
