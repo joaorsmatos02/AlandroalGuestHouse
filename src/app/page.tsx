@@ -8,6 +8,9 @@ export default function Home() {
         <div className={styles.background}>
             <h1>Alandroal Guest House</h1>
         </div>
+        <div className={styles.secondDiv}>
+            <h1>teste</h1>
+        </div>
     </div>
   );
 }
