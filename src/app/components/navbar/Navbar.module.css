@@ -5,6 +5,8 @@
   left: 0;
   z-index: 1000;
   height: 7em;
+  display: flex;
+  justify-content: space-between;
 }
 
 .topBar.scrolled {

@@ -36,6 +36,17 @@ export default function NavBar() {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
+        <ul className={styles.navigation}>
+          <li>
+            <Link href="/pt">pt</Link>
+          </li>
+          <li>
+            <Link href="/en">en</Link>
+          </li>
+          <li>
+            <Link href="/fr">fr</Link>
+          </li>
+        </ul>
       </div>
       {scrolling && <div className={styles.placeholder} />}
     </div>
