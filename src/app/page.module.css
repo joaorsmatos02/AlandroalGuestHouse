@@ -1,4 +1,3 @@
-/* page.module.css */
 .background {
     position: absolute;
     top: 0;
@@ -17,8 +16,54 @@
     font-size: 2em;
 }
 
+/**********************************************************************/
+
 .secondDiv {
     margin-left: 10em;
     margin-right: 10em;
     margin-top: 90vh;
+}
+
+.secondDiv h1 {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.infoWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3em;
+}  
+  
+.historyDiv {
+    padding: 3em;
+    margin-right: 3em;
+    border: 1px solid white;
+}
+
+.contactsDiv {
+    padding: 3em;
+    border: 1px solid white;
+}
+
+.backgroundWrapper {
+    flex: 1;
+    margin-right: 3em;
+}
+
+.secondBackground {
+    position: absolute;
+    width: 30em;
+    height: 50em;
+    background: url('../../images/102.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.roomInfo {
+    flex: 2;
+    height: 50em;
+    padding: 3em;
+    border: 1px solid white;
+    box-sizing: border-box;
 }
