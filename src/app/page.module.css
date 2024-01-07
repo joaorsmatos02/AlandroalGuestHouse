@@ -22,6 +22,7 @@
     margin-left: 10em;
     margin-right: 10em;
     margin-top: 90vh;
+    margin-bottom: 5em;
 }
 
 .secondDiv h1 {
@@ -66,4 +67,26 @@
     padding: 3em;
     border: 1px solid white;
     box-sizing: border-box;
+}
+
+.museumDiv {
+    position: relative;
+    padding: 3em;
+    height: 17em;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: url('../../images/155.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.museumDiv h1 {
+    font-size: 3em;
+}
+
+.museumDiv:hover {
+    opacity: 0.8;
 }

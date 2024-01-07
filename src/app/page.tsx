@@ -42,6 +42,10 @@ export default function Home() {
                 </div>
             </div>
 
+            <div className={styles.museumDiv}>
+                <h1>See Our Museum</h1>
+            </div>
+
         </div>
     </div>
   );
