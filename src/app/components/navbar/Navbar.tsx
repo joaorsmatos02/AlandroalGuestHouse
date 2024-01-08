@@ -42,7 +42,7 @@ export default function NavBar() {
           alt="Logo"
           layout='fill'
           objectFit='contain'
-          style={{ padding: '1.5em' }}
+          style={{ padding: '1em', zIndex: '-1' }}
         />
         <ul className={styles.navigation}>
           <li>
