@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 90vh;
-    background: url('/images/144.jpg') no-repeat center center fixed;
+    background: url('/images/159.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
 }
@@ -36,20 +36,30 @@
     padding-bottom: 3em;
 }  
   
-.historyDiv {
+.pricingDiv {
     padding: 3em;
-    margin-right: 3em;
     border: 1px solid white;
+    width: 50%;
+    margin-left: 3em;
 }
 
-.contactsDiv {
+.imageTextWrapper {
+    flex: 2;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+}
+
+.exhibition {
     padding: 3em;
     border: 1px solid white;
+    height: 50%;
+    margin-bottom: 3em;
 }
 
 .backgroundWrapper {
     flex: 1;
-    margin-right: 3em;
+    margin-left: 3em;
 }
 
 .secondBackground {
@@ -61,129 +71,68 @@
     z-index: -1;
 }
 
-.roomInfo {
-    flex: 2;
-    height: 50em;
-    padding: 3em;
-    border: 1px solid white;
-}
-
-.museumDiv {
-    position: relative;
-    padding: 3em;
-    height: 17em;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    background: url('/images/155.jpg') no-repeat center center fixed;
-    background-size: cover;
-    transition: 0.3s ease-in-out;
-    margin-bottom: 5em;
-}
-
-.museumDiv h1 {
-    font-size: 3em;
-}
-
-.museumDiv:hover {
-    opacity: 0.8;
-}
 
 /**********************************************************************/
 
-.line {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2em;
-}
-  
-.line h1 {
-    margin-right: 0.5em;
-    font-size: 2em;
-}
-  
-.line::after {
-    content: '';
-    flex-grow: 1;
-    border-bottom: 1px solid white;
-    margin-left: 1em;
-}
-  
-
-.room {
+.photo {
     position: relative;
     padding: 3em;
     border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
 }
 
-.room:hover {
-    opacity: 0.8;
-}
-
-.room1 {
+.photo1 {
     height: 20em;
     background: url('/images/40.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
-    width:60%
+    width:50%
 }
 
-.room2 {
+.photo2 {
     margin-left: 3em;
     height: 20em;
     background: url('/images/23.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
-    width:40%
+    width:50%
 }
 
-.room3 {
+.photo3 {
     height: 20em;
     background: url('/images/84.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
-    width:30%
+    width:60%
 }
 
-.room4 {
+.photo4 {
     margin-left: 3em;
     height: 20em;
     background: url('/images/25.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
-    width:70%
+    width:40%
 }
 
-.room5 {
-    height: 20em;
-    background: url('/images/90.jpg') no-repeat center center fixed;
+.photo5 {
+    background: url('/images/25.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
-    width:50%
+    width: 50%;
 }
 
-.room6 {
-    margin-left: 3em;
-    height: 20em;
-    background: url('/images/46.jpg') no-repeat center center fixed;
+.photo6 {
+    background: url('/images/25.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
-    width:50%
+    height: 50%;
 }
-
 /**********************************************************************/
 
 .endBackground {
     position: relative;
     height: 50vh;
-    background: url('/images/144.jpg') no-repeat center center fixed;
+    background: url('/images/159.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;

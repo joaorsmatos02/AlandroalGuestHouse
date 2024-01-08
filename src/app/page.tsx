@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import Footer from './components/footer/Footer';
-import NavBar from './components/navbar/Navbar'
+import Footer from '../app/components/footer/Footer';
+import NavBar from '../app/components/navbar/Navbar'
 import styles from './page.module.css'
 
-export default function Home() {
+export default function Museum() {
   return (
     <div>
         <NavBar />
