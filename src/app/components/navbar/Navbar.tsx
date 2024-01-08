@@ -28,13 +28,16 @@ export default function NavBar() {
       <div className={`${styles.topBar} ${scrolling ? styles.scrolled : ''}`}>
         <ul className={styles.navigation}>
           <li>
+            <Link href="/">About</Link>
+          </li>
+          <li>
             <Link href="/rooms">Rooms</Link>
           </li>
           <li>
             <Link href="/museum">Museum</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">Contacts</Link>
           </li>
         </ul>
         <Image
