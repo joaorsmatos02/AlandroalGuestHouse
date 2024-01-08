@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
+import Image from 'next/image';
 
 export default function NavBar() {
   const [scrolling, setScrolling] = useState(false);
@@ -36,6 +37,13 @@ export default function NavBar() {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
+        <Image
+          src="/images/Rural_Alberto_Logo.png"
+          alt="Logo"
+          layout='fill'
+          objectFit='contain'
+          style={{ padding: '1.5em' }}
+        />
         <ul className={styles.navigation}>
           <li>
             <Link href="/pt">pt</Link>
