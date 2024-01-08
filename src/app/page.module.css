@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 90vh;
-    background: url('../../images/144.jpg') no-repeat center center fixed;
+    background: url('/images/144.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
 }
@@ -56,7 +56,7 @@
     position: absolute;
     width: 30em;
     height: 50em;
-    background: url('../../images/102.jpg') no-repeat center center fixed;
+    background: url('/images/102.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
 }
@@ -78,7 +78,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background: url('../../images/155.jpg') no-repeat center center fixed;
+    background: url('/images/155.jpg') no-repeat center center fixed;
     background-size: cover;
     transition: 0.3s ease-in-out;
     margin-bottom: 5em;
@@ -130,7 +130,7 @@
 
 .room1 {
     height: 20em;
-    background: url('../../images/40.jpg') no-repeat center center fixed;
+    background: url('/images/40.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:60%
@@ -139,7 +139,7 @@
 .room2 {
     margin-left: 3em;
     height: 20em;
-    background: url('../../images/23.jpg') no-repeat center center fixed;
+    background: url('/images/23.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:40%
@@ -147,7 +147,7 @@
 
 .room3 {
     height: 20em;
-    background: url('../../images/84.jpg') no-repeat center center fixed;
+    background: url('/images/84.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:30%
@@ -156,7 +156,7 @@
 .room4 {
     margin-left: 3em;
     height: 20em;
-    background: url('../../images/25.jpg') no-repeat center center fixed;
+    background: url('/images/25.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:70%
@@ -164,7 +164,7 @@
 
 .room5 {
     height: 20em;
-    background: url('../../images/90.jpg') no-repeat center center fixed;
+    background: url('/images/90.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:50%
@@ -173,7 +173,7 @@
 .room6 {
     margin-left: 3em;
     height: 20em;
-    background: url('../../images/46.jpg') no-repeat center center fixed;
+    background: url('/images/46.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:50%
@@ -184,7 +184,7 @@
 .endBackground {
     position: relative;
     height: 50vh;
-    background: url('../../images/144.jpg') no-repeat center center fixed;
+    background: url('/images/144.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
