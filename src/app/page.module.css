@@ -178,3 +178,15 @@
     background-size:cover;
     width:50%
 }
+
+/**********************************************************************/
+
+.endBackground {
+    position: relative;
+    height: 50vh;
+    background: url('../../images/144.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
