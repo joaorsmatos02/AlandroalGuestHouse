@@ -4,9 +4,13 @@
     left: 0;
     width: 100vw;
     height: 90vh;
-    background: url('/images/159.jpg') no-repeat center center fixed;
+    background: url('/images/164.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
+}
+
+.background h1 {
+    opacity: 1;
 }
 
 .background h1 {
@@ -66,7 +70,7 @@
     position: absolute;
     width: 30em;
     height: 50em;
-    background: url('/images/102.jpg') no-repeat center center fixed;
+    background: url('/images/163.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
 }
@@ -82,7 +86,7 @@
 
 .photo1 {
     height: 20em;
-    background: url('/images/40.jpg') no-repeat center center fixed;
+    background: url('/images/154.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:50%
@@ -91,7 +95,7 @@
 .photo2 {
     margin-left: 3em;
     height: 20em;
-    background: url('/images/23.jpg') no-repeat center center fixed;
+    background: url('/images/157.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:50%
@@ -99,7 +103,7 @@
 
 .photo3 {
     height: 20em;
-    background: url('/images/84.jpg') no-repeat center center fixed;
+    background: url('/images/160.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:60%
@@ -108,21 +112,21 @@
 .photo4 {
     margin-left: 3em;
     height: 20em;
-    background: url('/images/25.jpg') no-repeat center center fixed;
+    background: url('/images/162.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:40%
 }
 
 .photo5 {
-    background: url('/images/25.jpg') no-repeat center center fixed;
+    background: url('/images/165.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width: 50%;
 }
 
 .photo6 {
-    background: url('/images/25.jpg') no-repeat center center fixed;
+    background: url('/images/159.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     height: 50%;
@@ -132,7 +136,7 @@
 .endBackground {
     position: relative;
     height: 50vh;
-    background: url('/images/159.jpg') no-repeat center center fixed;
+    background: url('/images/164.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
