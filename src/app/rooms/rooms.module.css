@@ -1,0 +1,144 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+    background: url('/images/144.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background h1 {
+    margin-left: 7em;
+    margin-top: 7em;
+    font-style: italic;
+    font-size: 2em;
+}
+
+/**********************************************************************/
+
+.secondDiv {
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 100vh;
+    margin-bottom: 5em;
+}
+
+.secondDiv h1 {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.infoWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3em;
+}  
+  
+.historyDiv {
+    padding: 3em;
+    margin-right: 3em;
+    border: 1px solid white;
+}
+
+.contactsDiv {
+    padding: 3em;
+    border: 1px solid white;
+}
+
+.backgroundWrapper {
+    flex: 1;
+    margin-right: 3em;
+}
+
+.secondBackground {
+    position: absolute;
+    width: 30em;
+    height: 50em;
+    background: url('/images/102.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.roomInfo {
+    flex: 2;
+    height: 50em;
+    padding: 3em;
+    border: 1px solid white;
+} 
+
+.room {
+    position: relative;
+    padding: 3em;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.room:hover {
+    opacity: 0.8;
+}
+
+.room1 {
+    height: 20em;
+    background: url('/images/40.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:60%
+}
+
+.room2 {
+    margin-left: 3em;
+    height: 20em;
+    background: url('/images/23.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:40%
+}
+
+.room3 {
+    height: 20em;
+    background: url('/images/84.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:30%
+}
+
+.room4 {
+    margin-left: 3em;
+    height: 20em;
+    background: url('/images/25.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:70%
+}
+
+.room5 {
+    height: 20em;
+    background: url('/images/90.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:50%
+}
+
+.room6 {
+    margin-left: 3em;
+    height: 20em;
+    background: url('/images/46.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:50%
+}
+
+/**********************************************************************/
+
+.endBackground {
+    position: relative;
+    height: 50vh;
+    background: url('/images/144.jpg') no-repeat center center fixed;
+    background-size: cover;
+}

@@ -36,9 +36,6 @@ export default function NavBar() {
           <li>
             <Link href="/museum">Museum</Link>
           </li>
-          <li>
-            <Link href="/contacts">Contacts</Link>
-          </li>
         </ul>
         <Image
           src="/images/Rural_Alberto_Logo.png"
