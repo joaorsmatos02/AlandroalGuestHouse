@@ -1,5 +1,9 @@
 .imageWrapper {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5em;
+  margin-right: 1em;
   height: 25vh;
   width: 25vw;
 }

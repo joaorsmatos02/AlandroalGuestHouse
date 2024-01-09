@@ -1,0 +1,29 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('/images/164.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background h1 {
+    margin-left: 7em;
+    margin-top: 7em;
+    font-style: italic;
+    font-size: 2em;
+    z-index: 1;
+}
+
+
+.endBackground {
+    position: relative;
+    height: 50vh;
+    background: url('/images/164.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

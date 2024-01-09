@@ -37,7 +37,7 @@ export default function NavBar() {
             <Link href="/museum">Museum</Link>
           </li>
           <li>
-            <Link href="/contact">Contacts</Link>
+            <Link href="/contacts">Contacts</Link>
           </li>
         </ul>
         <Image
