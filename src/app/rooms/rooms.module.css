@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 90vh;
-    background: url('/images/144.jpg') no-repeat center center fixed;
+    background: url('/images/39.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
 }
@@ -47,26 +47,35 @@
     border: 1px solid white;
 }
 
+.imageTextWrapper {
+    flex: 2;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+}
+
+.exhibition {
+    padding: 3em;
+    border: 1px solid white;
+    height: 50%;
+    margin-bottom: 3em;
+}
+
 .backgroundWrapper {
     flex: 1;
-    margin-right: 3em;
+    margin-left: 3em;
 }
 
 .secondBackground {
     position: absolute;
     width: 30em;
     height: 50em;
-    background: url('/images/102.jpg') no-repeat center center fixed;
+    background: url('/images/62.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
 }
 
-.roomInfo {
-    flex: 2;
-    height: 50em;
-    padding: 3em;
-    border: 1px solid white;
-} 
+/**********************************************************************/
 
 .room {
     position: relative;
@@ -81,6 +90,13 @@
 
 .room:hover {
     opacity: 0.8;
+}
+
+.room0 {
+    background: url('/images/40.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    height: 100%;
 }
 
 .room1 {
@@ -126,12 +142,12 @@
 }
 
 .room6 {
-    margin-left: 3em;
     height: 20em;
     background: url('/images/46.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
-    width:50%
+    width:50%;
+    margin-left: 3em;
 }
 
 /**********************************************************************/
@@ -139,6 +155,6 @@
 .endBackground {
     position: relative;
     height: 50vh;
-    background: url('/images/144.jpg') no-repeat center center fixed;
+    background: url('/images/39.jpg') no-repeat center center fixed;
     background-size: cover;
 }
