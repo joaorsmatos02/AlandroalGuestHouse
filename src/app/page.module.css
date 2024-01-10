@@ -47,18 +47,12 @@
     border: 1px solid white;
 }
 
-.backgroundWrapper {
-    flex: 1;
-    margin-right: 3em;
-}
-
 .secondBackground {
-    position: absolute;
+    margin-right: 3em;
     width: 30em;
     height: 50em;
     background: url('/images/102.jpg') no-repeat center center fixed;
     background-size: cover;
-    z-index: -1;
 }
 
 .roomInfo {

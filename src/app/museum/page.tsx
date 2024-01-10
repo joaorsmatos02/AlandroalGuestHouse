@@ -34,9 +34,7 @@ export default function Home() {
                     </div>
                     <div className={`${styles.photo} ${styles.photo6}`}/>
                 </div>
-                <div className={styles.backgroundWrapper}>
-                    <div className={styles.secondBackground} />
-                </div>
+                <div className={styles.secondBackground} />
             </div>
 
             <div className={styles.infoWrapper}>

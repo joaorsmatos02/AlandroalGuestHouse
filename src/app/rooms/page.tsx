@@ -39,9 +39,7 @@ export default function Museum() {
                     </div>
                     <div className={`${styles.room} ${styles.room0}`}/>
                 </div>
-                <div className={styles.backgroundWrapper}>
-                    <div className={styles.secondBackground} />
-                </div>
+                <div className={styles.secondBackground} />
             </div>
 
             <div className={styles.infoWrapper}>

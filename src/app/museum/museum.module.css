@@ -61,18 +61,12 @@
     margin-bottom: 3em;
 }
 
-.backgroundWrapper {
-    flex: 1;
-    margin-left: 3em;
-}
-
 .secondBackground {
-    position: absolute;
+    margin-left: 3em;
     width: 30em;
     height: 50em;
     background: url('/images/163.jpg') no-repeat center center fixed;
     background-size: cover;
-    z-index: -1;
 }
 
 
