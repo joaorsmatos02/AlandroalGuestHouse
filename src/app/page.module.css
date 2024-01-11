@@ -33,22 +33,20 @@
 .infoWrapper {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }  
   
 .historyDiv {
     padding: 3em;
     margin-right: 3em;
-    border: 1px solid white;
 }
 
 .contactsDiv {
     padding: 3em;
-    border: 1px solid white;
 }
 
 .secondBackground {
-    margin-right: 3em;
+    margin-right: 1em;
     width: 30em;
     height: 50em;
     background: url('/images/102.jpg') no-repeat center center fixed;
@@ -74,9 +72,11 @@
     background: url('/images/155.jpg') no-repeat center center fixed;
     background-size: cover;
     transition: 0.3s ease-in-out;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     background-attachment: local;
+    background-position: center -320px;
 }
+
 
 .museumDiv h1 {
     font-size: 3em;
@@ -131,7 +131,7 @@
 }
 
 .room2 {
-    margin-left: 3em;
+    margin-left: 1em;
     height: 20em;
     background: url('/images/23.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -148,7 +148,7 @@
 }
 
 .room4 {
-    margin-left: 3em;
+    margin-left: 1em;
     height: 20em;
     background: url('/images/25.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -165,7 +165,7 @@
 }
 
 .room6 {
-    margin-left: 3em;
+    margin-left: 1em;
     height: 20em;
     background: url('/images/46.jpg') no-repeat center center fixed;
     background-attachment: local;
