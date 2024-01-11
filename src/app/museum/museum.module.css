@@ -44,6 +44,8 @@
     padding: 3em;
     width: 50%;
     margin-left: 1em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .imageTextWrapper {
@@ -57,6 +59,8 @@
     padding: 3em;
     height: 50%;
     margin-bottom: 1em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .secondBackground {

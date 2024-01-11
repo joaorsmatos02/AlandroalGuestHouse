@@ -39,10 +39,14 @@
 .historyDiv {
     padding: 3em;
     margin-right: 1em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .contactsDiv {
     padding: 3em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .imageTextWrapper {
@@ -55,7 +59,9 @@
 .exhibition {
     padding: 3em;
     height: 50%;
-    margin-bottom: 1em;
+    margin-bottom: 1em;  
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .secondBackground {

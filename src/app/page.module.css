@@ -39,10 +39,14 @@
 .historyDiv {
     padding: 3em;
     margin-right: 3em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .contactsDiv {
     padding: 3em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .secondBackground {
@@ -76,14 +80,32 @@
     background-position: center -320px;
 }
 
+.museumDiv::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
 
 .museumDiv h1 {
     font-size: 3em;
+    position: relative;
+    z-index: 1;
 }
 
-.museumDiv:hover {
-    opacity: 0.8;
+.museumDiv:hover::before {
+    opacity: 0.5;
 }
+
+.museumDiv:hover h1 {
+    opacity: 1;
+}
+
 
 /**********************************************************************/
 
@@ -104,7 +126,8 @@
     border-bottom: 1px solid white;
     margin-left: 1em;
 }
-  
+
+/**********************************************************************/
 
 .room {
     position: relative;
@@ -113,12 +136,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
-.room:hover {
-    opacity: 0.8;
+.room::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.room:hover::before {
+    opacity: 0.5;
+}
+
+.room h1 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.room:hover h1 {
+    opacity: 1;
 }
 
 .room1 {
