@@ -33,18 +33,16 @@
 .infoWrapper {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }  
   
 .historyDiv {
     padding: 3em;
-    margin-right: 3em;
-    border: 1px solid white;
+    margin-right: 1em;
 }
 
 .contactsDiv {
     padding: 3em;
-    border: 1px solid white;
 }
 
 .imageTextWrapper {
@@ -56,13 +54,12 @@
 
 .exhibition {
     padding: 3em;
-    border: 1px solid white;
     height: 50%;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .secondBackground {
-    margin-left: 3em;
+    margin-left: 1em;
     width: 30em;
     height: 50em;
     background: url('/images/62.jpg') no-repeat center center fixed;
@@ -102,7 +99,7 @@
 }
 
 .room2 {
-    margin-left: 3em;
+    margin-left: 1em;
     height: 20em;
     background: url('/images/23.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -119,7 +116,7 @@
 }
 
 .room4 {
-    margin-left: 3em;
+    margin-left: 1em;
     height: 20em;
     background: url('/images/25.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -136,12 +133,12 @@
 }
 
 .room6 {
+    margin-left: 1em;
     height: 20em;
     background: url('/images/46.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:50%;
-    margin-left: 3em;
 }
 
 /**********************************************************************/

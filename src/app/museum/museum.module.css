@@ -37,14 +37,13 @@
 .infoWrapper {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }  
   
 .pricingDiv {
     padding: 3em;
-    border: 1px solid white;
     width: 50%;
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 .imageTextWrapper {
@@ -56,13 +55,12 @@
 
 .exhibition {
     padding: 3em;
-    border: 1px solid white;
     height: 50%;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .secondBackground {
-    margin-left: 3em;
+    margin-left: 1em;
     width: 30em;
     height: 50em;
     background: url('/images/163.jpg') no-repeat center center fixed;
@@ -87,7 +85,7 @@
 }
 
 .photo2 {
-    margin-left: 3em;
+    margin-left: 1em;
     height: 20em;
     background: url('/images/157.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -104,7 +102,7 @@
 }
 
 .photo4 {
-    margin-left: 3em;
+    margin-left: 1em;
     height: 20em;
     background: url('/images/162.jpg') no-repeat center center fixed;
     background-attachment: local;
