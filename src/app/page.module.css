@@ -75,6 +75,7 @@
     background-size: cover;
     transition: 0.3s ease-in-out;
     margin-bottom: 5em;
+    background-attachment: local;
 }
 
 .museumDiv h1 {
