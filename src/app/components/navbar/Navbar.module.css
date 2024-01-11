@@ -14,7 +14,7 @@
 .topBar.scrolled {
   transition: 0.3s ease-in;
   position: fixed;
-  background-color: black;
+  background-color: #f6f3ec;
 }
 
 .navigation {
@@ -35,7 +35,7 @@
   display: block;
   padding: 0.5em;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .navigation a::before {
@@ -45,7 +45,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: black;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }

@@ -4,9 +4,10 @@
     left: 0;
     width: 100vw;
     height: 90vh;
-    background: url('/images/144.jpg') no-repeat center center fixed;
+    background: url('/images/114.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
+    color: black;
 }
 
 .background h1 {
@@ -23,6 +24,7 @@
     margin-right: 10em;
     margin-top: 100vh;
     margin-bottom: 5em;
+    color: black;
 }
 
 .secondDiv h1 {
@@ -33,8 +35,13 @@
 .infoWrapper {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1em;
+    margin-bottom: 1em;
 }  
+
+.secondaryColor {
+    background-color: #2a2d32;
+    color: white;
+}
   
 .historyDiv {
     padding: 3em;
@@ -52,14 +59,14 @@
 .secondBackground {
     margin-right: 1em;
     width: 30em;
-    height: 50em;
+    height: 40em;
     background: url('/images/102.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
 .roomInfo {
     flex: 2;
-    height: 50em;
+    height: 40em;
     padding: 3em;
 }
 
@@ -78,6 +85,8 @@
     margin-bottom: 3em;
     background-attachment: local;
     background-position: center -320px;
+    color: white;
+    margin-top: 2em;
 }
 
 .museumDiv::before {
@@ -123,7 +132,7 @@
 .line::after {
     content: '';
     flex-grow: 1;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     margin-left: 1em;
 }
 
@@ -132,7 +141,7 @@
 .room {
     position: relative;
     padding: 3em;
-    border: 1px solid white;
+    border: 1px solid #2a2d32;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,6 +232,6 @@
 .endBackground {
     position: relative;
     height: 50vh;
-    background: url('/images/144.jpg') no-repeat center center fixed;
+    background: url('/images/114.jpg') no-repeat center center fixed;
     background-size: cover;
 }

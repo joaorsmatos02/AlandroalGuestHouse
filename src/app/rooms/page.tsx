@@ -43,30 +43,18 @@ export default function Museum() {
             </div>
 
             <div className={styles.infoWrapper}>
-                <div className={`${styles.room} ${styles.room1}`}>
-                    <h1>Red Room</h1>
-                </div>
-                <div className={`${styles.room} ${styles.room2}`}>
-                    <h1>Blue Room</h1>
-                </div>
+                <div className={`${styles.room} ${styles.room1}`}/>
+                <div className={`${styles.room} ${styles.room2}`}/>
             </div>
 
             <div className={styles.infoWrapper}>
-                <div className={`${styles.room} ${styles.room3}`}>
-                    <h1>Birds Room</h1>
-                </div>
-                <div className={`${styles.room} ${styles.room4}`}>
-                    <h1>Golden Room</h1>
-                </div>
+                <div className={`${styles.room} ${styles.room3}`}/>
+                <div className={`${styles.room} ${styles.room4}`}/>
             </div>
 
             <div className={styles.infoWrapper}>
-                <div className={`${styles.room} ${styles.room5}`}>
-                    <h1>Well Room</h1>
-                </div>
-                <div className={`${styles.room} ${styles.room6}`}>
-                    <h1>Green Room</h1>
-                </div>
+                <div className={`${styles.room} ${styles.room5}`}/>
+                <div className={`${styles.room} ${styles.room6}`}/>
             </div>
 
         </div>

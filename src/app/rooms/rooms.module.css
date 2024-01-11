@@ -7,6 +7,7 @@
     background: url('/images/39.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
+    color: black;
 }
 
 .background h1 {
@@ -23,6 +24,7 @@
     margin-right: 10em;
     margin-top: 100vh;
     margin-bottom: 5em;
+    color: black;
 }
 
 .secondDiv h1 {
@@ -57,6 +59,8 @@
 }
 
 .exhibition {
+    color: white;
+    background-color: #2a2d32;
     padding: 3em;
     height: 50%;
     margin-bottom: 1em;  
@@ -65,7 +69,6 @@
 }
 
 .secondBackground {
-    margin-left: 1em;
     width: 30em;
     height: 50em;
     background: url('/images/62.jpg') no-repeat center center fixed;
@@ -77,16 +80,11 @@
 .room {
     position: relative;
     padding: 3em;
-    border: 1px solid white;
+    border: 1px solid #2a2d32;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     transition: 0.3s ease-in-out;
-}
-
-.room:hover {
-    opacity: 0.8;
 }
 
 .room0 {
@@ -94,6 +92,7 @@
     background-attachment: local;
     background-size:cover;
     height: 100%;
+    margin-right: 1em;
 }
 
 .room1 {
