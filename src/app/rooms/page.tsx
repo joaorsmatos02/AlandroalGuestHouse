@@ -43,18 +43,24 @@ export default function Museum() {
             </div>
 
             <div className={styles.infoWrapper}>
+                <div className={styles.text}>
+                    SUSILUHSL
+                </div>
                 <div className={`${styles.room} ${styles.room1}`}/>
+            </div>
+
+            <div className={styles.infoWrapper}>
                 <div className={`${styles.room} ${styles.room2}`}/>
+                <div className={styles.text}>
+                    SUSILUHSL
+                </div>
             </div>
 
             <div className={styles.infoWrapper}>
+                <div className={styles.text}>
+                    SUSILUHSL
+                </div>
                 <div className={`${styles.room} ${styles.room3}`}/>
-                <div className={`${styles.room} ${styles.room4}`}/>
-            </div>
-
-            <div className={styles.infoWrapper}>
-                <div className={`${styles.room} ${styles.room5}`}/>
-                <div className={`${styles.room} ${styles.room6}`}/>
             </div>
 
         </div>
