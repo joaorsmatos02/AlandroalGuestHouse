@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 90vh;
-    background: url('/images/39.jpg') no-repeat center center fixed;
+    background: url('/images/71.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
     color: black;
@@ -148,6 +148,6 @@
 .endBackground {
     position: relative;
     height: 50vh;
-    background: url('/images/39.jpg') no-repeat center center fixed;
+    background: url('/images/71.jpg') no-repeat center center fixed;
     background-size: cover;
 }
