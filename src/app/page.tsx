@@ -10,6 +10,7 @@ export default function Museum() {
 
         <div className={styles.background}>
             <h1>Alandroal Guest House</h1>
+            <h2>Hotel Rural ★★★</h2>
         </div>
 
         <div className={styles.secondDiv}>

@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background: url('/images/71.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
@@ -11,9 +11,8 @@
 }
 
 .background h1 {
-    margin-left: 7em;
-    margin-top: 7em;
-    font-style: italic;
+    margin-left: 10%;
+    margin-top: 10%;
     font-size: 2em;
 }
 
@@ -97,7 +96,7 @@
     height: 30em;
     position: relative;
     padding: 3em;
-    border: 1px solid #2a2d32;
+    border: 1px solid #cecece;
     display: flex;
     align-items: center;
     justify-content: space-between;
