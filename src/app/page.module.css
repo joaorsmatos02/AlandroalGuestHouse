@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('/images/114.jpg') no-repeat center center fixed;
+    background: url('/images/Exterior/114.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
     color: black;
@@ -45,24 +45,56 @@
     color: white;
 }
   
+.contactsDiv {
+    width: 50%;
+    padding: 3em;
+    margin: 0 auto;
+    text-align:  center;
+    text-justify: inter-word;
+}
+
+.contactsDiv ul li {
+    margin-top: 2%;
+}
+
 .historyDiv {
     padding: 3em;
     margin-right: 3em;
     text-align: justify;
     text-justify: inter-word;
+    width: 50%;
+    height: 40em;
 }
 
-.contactsDiv {
-    padding: 3em;
-    text-align: justify;
-    text-justify: inter-word;
+.imagesWrapper {
+    display: flex;
+    width: 50%;
+}
+
+.vimage {
+    flex: 1;
+    height: 100%;
+    width: 50%;
+    margin-left: 1em;
+}
+
+.vimage1{
+    background: url('/images/Areas Comuns/142.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size: cover;
+}
+
+.vimage2{
+    background: url('/images/Areas Comuns/138.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size: cover;
 }
 
 .secondBackground {
     margin-right: 1em;
     width: 30em;
     height: 40em;
-    background: url('/images/102.jpg') no-repeat center center fixed;
+    background: url('/images/Exterior/102.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -81,7 +113,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background: url('/images/155.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/155.jpg') no-repeat center center fixed;
     background-size: cover;
     transition: 0.3s ease-in-out;
     margin-bottom: 3em;
@@ -234,6 +266,6 @@
 .endBackground {
     position: relative;
     height: 50vh;
-    background: url('/images/114.jpg') no-repeat center center fixed;
+    background: url('/images/Exterior/114.jpg') no-repeat center center fixed;
     background-size: cover;
 }

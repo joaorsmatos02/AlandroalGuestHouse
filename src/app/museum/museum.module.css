@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('/images/154.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/154.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
     color: black;
@@ -65,7 +65,7 @@
 .secondBackground {
     width: 30em;
     height: 50em;
-    background: url('/images/163.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/163.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -79,14 +79,14 @@
 }
 
 .photo0 {
-    background: url('/images/165.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/165.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width: 50%;
 }
 
 .photo01 {
-    background: url('/images/159.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/159.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     height: 50%;
@@ -96,7 +96,7 @@
 
 .photo1 {
     height: 35vw;
-    background: url('/images/156.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/156.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:50%
@@ -105,7 +105,7 @@
 .photo2 {
     margin-left: 1em;
     height: 35vw;
-    background: url('/images/157.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/157.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:50%
@@ -113,7 +113,7 @@
 
 .photo3 {
     height: 35vw;
-    background: url('/images/160.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/160.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:60%
@@ -122,7 +122,7 @@
 .photo4 {
     margin-left: 1em;
     height: 35vw;
-    background: url('/images/162.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/162.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:40%
@@ -133,6 +133,6 @@
 .endBackground {
     position: relative;
     height: 50vh;
-    background: url('/images/154.jpg') no-repeat center center fixed;
+    background: url('/images/Museu/154.jpg') no-repeat center center fixed;
     background-size: cover;
 }

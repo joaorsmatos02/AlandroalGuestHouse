@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('/images/71.jpg') no-repeat center center fixed;
+    background: url('/images/10_Xana Casal/71.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
     color: black;
@@ -36,17 +36,49 @@
     padding-bottom: 1em;
 }  
   
-.historyDiv {
+.contactsDiv {
+    width: 50%;
     padding: 3em;
-    margin-right: 1em;
-    text-align: justify;
+    margin: 0 auto;
+    text-align:  center;
     text-justify: inter-word;
 }
 
-.contactsDiv {
+.contactsDiv ul li {
+    margin-top: 2%;
+}
+
+.layoutDiv {
     padding: 3em;
+    margin-right: 3em;
     text-align: justify;
     text-justify: inter-word;
+    width: 50%;
+    height: 40em;
+}
+
+.imagesWrapper {
+    display: flex;
+    width: 50%;
+}
+
+.vimage {
+    flex: 1;
+    height: 100%;
+    width: 50%;
+    margin-left: 1em;
+}
+
+.vimage1{
+    background: url('/images/01_Pomba/02.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size: cover;
+}
+
+.vimage2{
+    background: url('/images/14_Apartamento/117.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size: cover;
 }
 
 .imageTextWrapper {
@@ -154,6 +186,6 @@
 .endBackground {
     position: relative;
     height: 50vh;
-    background: url('/images/71.jpg') no-repeat center center fixed;
+    background: url('/images/10_Xana Casal/71.jpg') no-repeat center center fixed;
     background-size: cover;
 }
