@@ -104,6 +104,37 @@
     padding: 3em;
 }
 
+.roomInfo h1 {
+    margin-bottom: 2em;
+}
+
+.checklistWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checklistColumn {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.checklistColumn h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.checklistColumn ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 2em;
+}
+
+.checklistColumn li {
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+  
+
 .museumDiv {
     position: relative;
     padding: 3em;

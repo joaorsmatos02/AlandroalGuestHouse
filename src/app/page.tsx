@@ -45,14 +45,54 @@ export default function Museum() {
                 <div className={styles.secondBackground} />
                 <div className={styles.roomInfo}>
                     <h1>Amenities</h1>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div className={styles.checklistWrapper}>
+                        <div className={styles.checklistColumn}>
+                        <h2>General</h2>
+                            <ul>
+                                <li>Air conditioning</li>
+                                <li>Heating</li>
+                                <li>Family rooms</li>
+                                <li>Smoking areas</li>
+                                <li>Shared rooms</li>
+                            </ul>
+                            <h2>Food</h2>
+                            <ul>
+                                <li>Room Service</li>
+                            </ul>
+                        </div>
+
+                        <div className={styles.checklistColumn}>
+                            <h2>Technology</h2>
+                            <ul>
+                                <li>Free internet access throughout</li>
+                                <li>Television</li>
+                            </ul>
+                            <h2>Bathroom</h2>
+                            <ul>
+                                <li>Toilet Paper</li>
+                                <li>Towels</li>
+                                <li>Bathtub / Shower</li>
+                                <li>Private Bathroom</li>
+                                <li>Hairdryer</li>
+                            </ul>
+                        </div>
+
+                        <div className={styles.checklistColumn}>
+                            <h2>Bedroom</h2>
+                            <ul>
+                                <li>Bed Linens</li>
+                            </ul>
+
+                            <h2>Exterior</h2>
+                            <ul>
+                                <li>Outdoor Furniture</li>
+                                <li>Sunbathing Terrace</li>
+                                <li>Private Pool</li>
+                                <li>Terrace</li>
+                                <li>Garden</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
