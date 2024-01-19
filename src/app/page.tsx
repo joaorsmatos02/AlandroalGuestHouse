@@ -51,13 +51,13 @@ export default function Museum() {
                             <ul>
                                 <li>Air conditioning</li>
                                 <li>Heating</li>
-                                <li>Family rooms</li>
+                                <li>Family photos</li>
                                 <li>Smoking areas</li>
-                                <li>Shared rooms</li>
+                                <li>Shared photos</li>
                             </ul>
                             <h2>Food</h2>
                             <ul>
-                                <li>Room Service</li>
+                                <li>photo Service</li>
                             </ul>
                         </div>
 
@@ -67,18 +67,18 @@ export default function Museum() {
                                 <li>Free internet access throughout</li>
                                 <li>Television</li>
                             </ul>
-                            <h2>Bathroom</h2>
+                            <h2>Bathphoto</h2>
                             <ul>
                                 <li>Toilet Paper</li>
                                 <li>Towels</li>
                                 <li>Bathtub / Shower</li>
-                                <li>Private Bathroom</li>
+                                <li>Private Bathphoto</li>
                                 <li>Hairdryer</li>
                             </ul>
                         </div>
 
                         <div className={styles.checklistColumn}>
-                            <h2>Bedroom</h2>
+                            <h2>Bedphoto</h2>
                             <ul>
                                 <li>Bed Linens</li>
                             </ul>
@@ -103,36 +103,22 @@ export default function Museum() {
             </Link>
 
             <div className={styles.line}>
-                <Link href="/rooms">
-                    <h1>Rooms</h1>
-                </Link>
+                <h1>Gallery</h1>
             </div>
 
             <div className={styles.infoWrapper}>
-                <div className={`${styles.room} ${styles.room1}`}>
-                    <h1>Red Room</h1>
-                </div>
-                <div className={`${styles.room} ${styles.room2}`}>
-                    <h1>Blue Room</h1>
-                </div>
+                <div className={`${styles.photo} ${styles.photo1}`}/>
+                <div className={`${styles.photo} ${styles.photo2}`}/>
             </div>
 
             <div className={styles.infoWrapper}>
-                <div className={`${styles.room} ${styles.room3}`}>
-                    <h1>Birds Room</h1>
-                </div>
-                <div className={`${styles.room} ${styles.room4}`}>
-                    <h1>Golden Room</h1>
-                </div>
+                <div className={`${styles.photo} ${styles.photo3}`}/>
+                <div className={`${styles.photo} ${styles.photo4}`}/>
             </div>
 
             <div className={styles.infoWrapper}>
-                <div className={`${styles.room} ${styles.room5}`}>
-                    <h1>Well Room</h1>
-                </div>
-                <div className={`${styles.room} ${styles.room6}`}>
-                    <h1>Green Room</h1>
-                </div>
+                <div className={`${styles.photo} ${styles.photo5}`}/>
+                <div className={`${styles.photo} ${styles.photo6}`}/>
             </div>
 
         </div>

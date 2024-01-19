@@ -203,45 +203,16 @@
 
 /**********************************************************************/
 
-.room {
+.photo {
     position: relative;
     padding: 3em;
     border: 1px solid #cecece;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.3s ease-in-out;
 }
 
-.room::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.room:hover::before {
-    opacity: 0.5;
-}
-
-.room h1 {
-    position: relative;
-    z-index: 1;
-    color: white;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.room:hover h1 {
-    opacity: 1;
-}
-
-.room1 {
+.photo1 {
     height: 20em;
     background: url('/images/40.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -249,7 +220,7 @@
     width:60%
 }
 
-.room2 {
+.photo2 {
     margin-left: 1em;
     height: 20em;
     background: url('/images/23.jpg') no-repeat center center fixed;
@@ -258,7 +229,7 @@
     width:40%
 }
 
-.room3 {
+.photo3 {
     height: 20em;
     background: url('/images/84.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -266,7 +237,7 @@
     width:30%
 }
 
-.room4 {
+.photo4 {
     margin-left: 1em;
     height: 20em;
     background: url('/images/25.jpg') no-repeat center center fixed;
@@ -275,7 +246,7 @@
     width:70%
 }
 
-.room5 {
+.photo5 {
     height: 20em;
     background: url('/images/90.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -283,7 +254,7 @@
     width:50%
 }
 
-.room6 {
+.photo6 {
     margin-left: 1em;
     height: 20em;
     background: url('/images/46.jpg') no-repeat center center fixed;
