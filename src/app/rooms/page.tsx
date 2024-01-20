@@ -13,18 +13,18 @@ export default function Museum() {
     const imagesPerRoom : ImagesPerRoom = {
         room1: ['/images/01_Pomba/01.jpg', '/images/01_Pomba/03.jpg', '/images/01_Pomba/05.jpg', '/images/01_Pomba/07.jpg', '/images/01_Pomba/09.jpg'],
         room2: ['/images/02_Hollywood/11.jpg', '/images/02_Hollywood/12.jpg', '/images/02_Hollywood/14.jpg', '/images/02_Hollywood/15.jpg', '/images/02_Hollywood/16.jpg'],
-        room3: ['/images/03_Blue/20.jpg'],
-        room4: ['/images/04_Dourado/25.jpg'],
-        room5: ['/images/05_Rosa/31.jpg'],
-        room6: ['/images/06_Vermelho/38.jpg'],
-        room7: ['/images/07_Verde/46.jpg'],
-        room8: ['/images/08_Espelhos/53.jpg'],
-        room9: ['/images/09_Xana/61.jpg'],
-        room10: ['/images/10_Xana Casal/72.jpg'],
-        room11: ['/images/11_Gessos/76.jpg'],
-        room12: ['/images/12_Passarinhos/84.jpg'],
-        room13: ['/images/13_poço/90.jpg'],
-        room14: ['/images/14_Apartamento/121.jpg']
+        room3: ['/images/03_Blue/20.jpg', '/images/03_Blue/21.jpg', '/images/03_Blue/22.jpg', '/images/03_Blue/23.jpg'],
+        room4: ['/images/04_Dourado/25.jpg', '/images/04_Dourado/26.jpg', '/images/04_Dourado/27.jpg', '/images/04_Dourado/28.jpg', '/images/04_Dourado/29.jpg', '/images/04_Dourado/30.jpg'],
+        room5: ['/images/05_Rosa/31.jpg', '/images/05_Rosa/32.jpg', '/images/05_Rosa/33.jpg', '/images/05_Rosa/34.jpg', '/images/05_Rosa/36.jpg', '/images/05_Rosa/37.jpg'],
+        room6: ['/images/06_Vermelho/38.jpg', '/images/06_Vermelho/39.jpg', '/images/06_Vermelho/40.jpg', '/images/06_Vermelho/41.jpg', '/images/06_Vermelho/42.jpg', '/images/06_Vermelho/43.jpg', '/images/06_Vermelho/44.jpg'],
+        room7: ['/images/07_Verde/46.jpg', '/images/07_Verde/47.jpg', '/images/07_Verde/48.jpg', '/images/07_Verde/50.jpg', '/images/07_Verde/51.jpg', '/images/07_Verde/52.jpg'],
+        room8: ['/images/08_Espelhos/53.jpg', '/images/08_Espelhos/54.jpg', '/images/08_Espelhos/56.jpg', '/images/08_Espelhos/58.jpg', '/images/08_Espelhos/59.jpg'],
+        room9: ['/images/09_Xana/61.jpg', '/images/09_Xana/62.jpg', '/images/09_Xana/63.jpg', '/images/09_Xana/64.jpg', '/images/09_Xana/65.jpg', '/images/09_Xana/66.jpg'],
+        room10: ['/images/10_Xana Casal/72.jpg', '/images/10_Xana Casal/69.jpg', '/images/10_Xana Casal/70.jpg', '/images/10_Xana Casal/71.jpg', '/images/10_Xana Casal/73.jpg', '/images/10_Xana Casal/75.jpg'],
+        room11: ['/images/11_Gessos/76.jpg', '/images/11_Gessos/77.jpg', '/images/11_Gessos/78.jpg', '/images/11_Gessos/79.jpg', '/images/11_Gessos/80.jpg', '/images/11_Gessos/82.jpg'],
+        room12: ['/images/12_Passarinhos/84.jpg', '/images/12_Passarinhos/85.jpg', '/images/12_Passarinhos/86.jpg', '/images/12_Passarinhos/87.jpg', '/images/12_Passarinhos/89.jpg'],
+        room13: ['/images/13_poço/90.jpg', '/images/13_poço/91.jpg', '/images/13_poço/92.jpg', '/images/13_poço/93.jpg', '/images/13_poço/94.jpg', '/images/13_poço/149.jpg'],
+        room14: ['/images/14_Apartamento/121.jpg', '/images/14_Apartamento/119.jpg', '/images/14_Apartamento/123.jpg']
     };
 
     type CurrentImageIndex = {
