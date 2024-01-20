@@ -214,7 +214,7 @@
 
 .photo1 {
     height: 20em;
-    background: url('/images/40.jpg') no-repeat center center fixed;
+    background: url('/images/Exterior/111.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:60%
@@ -223,7 +223,7 @@
 .photo2 {
     margin-left: 1em;
     height: 20em;
-    background: url('/images/23.jpg') no-repeat center center fixed;
+    background: url('/images/Exterior/145.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:40%
@@ -231,7 +231,7 @@
 
 .photo3 {
     height: 20em;
-    background: url('/images/84.jpg') no-repeat center center fixed;
+    background: url('/images/Exterior/99.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:30%
@@ -240,7 +240,7 @@
 .photo4 {
     margin-left: 1em;
     height: 20em;
-    background: url('/images/25.jpg') no-repeat center center fixed;
+    background: url('/images/Areas Comuns/126.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:70%
@@ -248,7 +248,7 @@
 
 .photo5 {
     height: 20em;
-    background: url('/images/90.jpg') no-repeat center center fixed;
+    background: url('/images/Areas Comuns/124.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:50%
@@ -257,10 +257,19 @@
 .photo6 {
     margin-left: 1em;
     height: 20em;
-    background: url('/images/46.jpg') no-repeat center center fixed;
+    background: url('/images/Exterior/148.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
     width:50%
+}
+
+.photo7 {
+    margin-left: 1em;
+    height: 30em;
+    background: url('/images/Exterior/147.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+    width:100%
 }
 
 /**********************************************************************/

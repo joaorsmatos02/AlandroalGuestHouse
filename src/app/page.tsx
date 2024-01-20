@@ -78,9 +78,9 @@ export default function Museum() {
                         </div>
 
                         <div className={styles.checklistColumn}>
-                            <h2>Bedphoto</h2>
+                            <h2>Bedroom</h2>
                             <ul>
-                                <li>Bed Linens</li>
+                                <li>Bed Sheets</li>
                             </ul>
 
                             <h2>Exterior</h2>
@@ -119,6 +119,10 @@ export default function Museum() {
             <div className={styles.infoWrapper}>
                 <div className={`${styles.photo} ${styles.photo5}`}/>
                 <div className={`${styles.photo} ${styles.photo6}`}/>
+            </div>
+
+            <div className={styles.infoWrapper}>
+                <div className={`${styles.photo} ${styles.photo7}`}/>
             </div>
 
         </div>

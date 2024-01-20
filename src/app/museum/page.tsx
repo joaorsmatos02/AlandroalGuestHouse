@@ -47,6 +47,22 @@ export default function Home() {
                 <div className={`${styles.photo} ${styles.photo4}`}/>
             </div>
 
+            <div className={styles.infoWrapper}>
+                <div className={`${styles.photo} ${styles.photo5}`}/>
+                <div className={`${styles.photo} ${styles.photo6}`}/>
+                <div className={`${styles.photo} ${styles.photo7}`}/>
+            </div>
+
+            <div className={styles.infoWrapper}>
+                <div className={`${styles.photo} ${styles.photo8}`}/>
+                <div className={`${styles.photo} ${styles.photo9}`}/>
+            </div>
+
+            <div className={styles.infoWrapper}>
+                <div className={`${styles.photo} ${styles.photo10}`}/>
+                <div className={`${styles.photo} ${styles.photo11}`}/>
+            </div>
+
         </div>
 
         <div className={styles.endBackground}>
