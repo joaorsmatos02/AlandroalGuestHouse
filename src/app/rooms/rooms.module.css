@@ -101,7 +101,7 @@
 .secondBackground {
     width: 30em;
     height: 50em;
-    background: url('/images/62.jpg') no-repeat center center fixed;
+    background: url('/images/09_Xana/62.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -137,7 +137,7 @@
 }
 
 .room0 {
-    background: url('/images/40.jpg') no-repeat center center fixed;
+    background: url('/images/06_Vermelho/40.jpg') no-repeat center center fixed;
     height: 100%;
     width: auto;
     margin-right: 1em;
@@ -146,37 +146,85 @@
 }
 
 .room1 {
-    background: url('/images/40.jpg') no-repeat center center fixed;
+    background: url('/images/01_Pomba/01.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
 }
 
 .room2 {
-    background: url('/images/23.jpg') no-repeat center center fixed;
+    background: url('/images/02_Hollywood/11.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
 }
 
 .room3 {
-    background: url('/images/84.jpg') no-repeat center center fixed;
+    background: url('/images/03_Blue/20.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
 }
 
 .room4 {
-    background: url('/images/25.jpg') no-repeat center center fixed;
+    background: url('/images/04_Dourado/25.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
 }
 
 .room5 {
-    background: url('/images/90.jpg') no-repeat center center fixed;
+    background: url('/images/05_Rosa/31.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
 }
 
 .room6 {
-    background: url('/images/46.jpg') no-repeat center center fixed;
+    background: url('/images/06_Vermelho/38.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+}
+
+.room7 {
+    background: url('/images/07_Verde/46.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+}
+
+.room8 {
+    background: url('/images/08_Espelhos/53.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+}
+
+.room9 {
+    background: url('/images/09_Xana/61.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+}
+
+.room10 {
+    background: url('/images/10_Xana Casal/72.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+}
+
+.room11 {
+    background: url('/images/11_Gessos/76.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+}
+
+.room12 {
+    background: url('/images/12_Passarinhos/84.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+}
+
+.room13 {
+    background: url('/images/13_poço/90.jpg') no-repeat center center fixed;
+    background-attachment: local;
+    background-size:cover;
+}
+
+.room14 {
+    background: url('/images/14_Apartamento/121.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
 }
