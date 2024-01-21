@@ -48,7 +48,7 @@ export default function Museum() {
                         <h1>Amenities</h1>
                         <div className={styles.checklistWrapper}>
                             <div className={styles.checklistColumn}>
-                                <h2>General</h2>
+                            <h2><img src='info.png' className={styles.icon}/> General</h2>
                                 <ul>
                                     <li>Air conditioning</li>
                                     <li>Heating</li>
@@ -56,11 +56,11 @@ export default function Museum() {
                                     <li>Family Rooms</li>
                                     <li>Shared Rooms</li>
                                 </ul>
-                                <h2>Food</h2>
+                                <h2><img src='restaurant.png' className={styles.icon}/> Food</h2>
                                 <ul>
                                     <li>Room Service</li>
                                 </ul>
-                                <h2>Pool</h2>
+                                <h2><img src='swimming.png' className={styles.icon}/> Pool</h2>
                                 <ul>
                                     <li>Exterior Pool</li>
                                     <li>Pool Bar</li>
@@ -68,12 +68,12 @@ export default function Museum() {
                             </div>
 
                             <div className={styles.checklistColumn}>
-                                <h2>Technology</h2>
+                                <h2><img src='monitor.png' className={styles.icon}/>Technology</h2>
                                 <ul>
                                     <li>Free internet access throughout</li>
                                     <li>Television</li>
                                 </ul>
-                                <h2>Bathrooms</h2>
+                                <h2><img src='bathtub.png' className={styles.icon}/>Bathrooms</h2>
                                 <ul>
                                     <li>Toilet Paper</li>
                                     <li>Towels</li>
@@ -81,18 +81,18 @@ export default function Museum() {
                                     <li>Private Bathroom</li>
                                     <li>Hairdryer</li>
                                 </ul>
-                                <h2>Cleaning</h2>
+                                <h2><img src='clean.png' className={styles.icon}/>Cleaning</h2>
                                 <ul>
                                     <li>Free Daily Cleaning</li>
                                 </ul>
                             </div>
 
                             <div className={styles.checklistColumn}>
-                                <h2>Bedroom</h2>
+                                <h2><img src='bed.png' className={styles.icon}/>Bedroom</h2>
                                 <ul>
                                     <li>Bed Sheets</li>
                                 </ul>
-                                <h2>Exterior</h2>
+                                <h2><img src='garden.png' className={styles.icon}/>Exterior</h2>
                                 <ul>
                                     <li>Outdoor Furniture</li>
                                     <li>Sunbathing Terrace</li>
