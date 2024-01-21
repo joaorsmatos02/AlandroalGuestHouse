@@ -25,7 +25,7 @@
 .secondDiv {
     margin-left: 10em;
     margin-right: 10em;
-    margin-top: 100vh;
+    margin-top: 90vh;
     margin-bottom: 5em;
     color: black;
 }
@@ -264,7 +264,6 @@
 }
 
 .photo7 {
-    margin-left: 1em;
     height: 30em;
     background: url('/images/Exterior/147.jpg') no-repeat center center fixed;
     background-attachment: local;

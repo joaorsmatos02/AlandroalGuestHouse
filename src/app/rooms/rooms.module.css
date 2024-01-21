@@ -1,27 +1,6 @@
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: url('/images/10_Xana Casal/71.jpg') no-repeat center center fixed;
-    background-size: cover;
-    z-index: -1;
-    color: black;
-}
-
-.background h1 {
-    margin-left: 10%;
-    margin-top: 10%;
-    font-size: 2em;
-}
-
-/**********************************************************************/
-
 .secondDiv {
     margin-left: 10em;
     margin-right: 10em;
-    margin-top: 100vh;
     margin-bottom: 5em;
     color: black;
 }
@@ -48,39 +27,6 @@
     margin-top: 2%;
 }
 
-.layoutDiv {
-    padding: 3em;
-    margin-right: 3em;
-    text-align: justify;
-    text-justify: inter-word;
-    width: 50%;
-    height: 40em;
-}
-
-.imagesWrapper {
-    display: flex;
-    width: 50%;
-}
-
-.vimage {
-    flex: 1;
-    height: 100%;
-    width: 50%;
-    margin-left: 1em;
-}
-
-.vimage1{
-    background: url('/images/01_Pomba/02.jpg') no-repeat center center fixed;
-    background-attachment: local;
-    background-size: cover;
-}
-
-.vimage2{
-    background: url('/images/14_Apartamento/117.jpg') no-repeat center center fixed;
-    background-attachment: local;
-    background-size: cover;
-}
-
 .imageTextWrapper {
     flex: 2;
     height: 50em;
@@ -88,7 +34,7 @@
     flex-direction: column;
 }
 
-.exhibition {
+.amenities {
     color: white;
     background-color: #2a2d32;
     padding: 3em;
@@ -103,6 +49,7 @@
     height: 50em;
     background: url('/images/09_Xana/62.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: local;
 }
 
 /**********************************************************************/

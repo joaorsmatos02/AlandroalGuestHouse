@@ -7,3 +7,10 @@
   height: 25vh;
   width: 25vw;
 }
+
+.contactsDiv {
+  text-align:  right;
+  margin-right: 23em;
+  padding-top: 17em;
+  font-size:large;
+}

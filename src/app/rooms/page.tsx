@@ -56,42 +56,23 @@ export default function Museum() {
   return (
     <div>
         <NavBar />
-
-        <div className={styles.background}>
-            <h1>Rooms</h1>
-        </div>
-
+        
         <div className={styles.secondDiv}>
 
             <div className={styles.infoWrapper}>
                 <div className={styles.contactsDiv}>
                     <h1>Contacts</h1>
                     <ul>
-                        <li>961324529</li>
-                        <li>feelalentejoalandroal@hotmail.com</li>
+                        <li><a href="tel:+351 961 324 529">+351 961 324 529</a></li>
+                        <li><a href="tel:0032 496 659 587">0032 496 659 587</a></li>
+                        <li><a href="mailto:feelalentejoalandroal@hotmail.com">feelalentejoalandroal@hotmail.com</a></li>
                     </ul>
                 </div>
             </div>
 
             <div className={styles.infoWrapper}>
-                <div className={styles.layoutDiv}>
-                    <h1>History</h1>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div className={styles.imagesWrapper}>
-                    <div className={`${styles.vimage} ${styles.vimage1}`}/>
-                    <div className={`${styles.vimage} ${styles.vimage2}`}/>
-                </div>
-            </div>
-
-            <div className={styles.infoWrapper}>
                     <div className={styles.imageTextWrapper}>
-                        <div className={styles.exhibition}>
+                        <div className={styles.amenities}>
                             <h1>Amenities</h1>
                             <br/>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
