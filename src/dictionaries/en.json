@@ -1,4 +1,11 @@
 {
+
+    "navbar": {
+        "about": "About",
+        "rooms": "Rooms",
+        "museum": "Museum"
+    },
+
     "contactsTitle": "Contacts",
     "contactsSubscript": "Call us and book directly",
 
