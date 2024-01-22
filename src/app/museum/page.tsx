@@ -16,9 +16,11 @@ export default function Home() {
           <div className={styles.infoWrapper}>
               <div className={`${styles.photo} ${styles.photo0}`}/>
               <div className={styles.pricingDiv}>
-                <h1>Pricing</h1>
-                <br/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>
+                            Welcome to our extraordinary museum, a captivating journey through the ages that transcends borders and encapsulates the essence of global heritage. 
+                            Housed within the historic walls of our 300-year-old building in Alandroal, our museum is a testament to the richness and diversity of cultures from around the world. 
+                            With a vast collection of artifacts, each with its own story to tell, our exhibits invite you to explore the beauty, artistry, and historical significance of civilizations spanning continents.
+                </p>
               </div>
           </div>
 
@@ -27,10 +29,11 @@ export default function Home() {
                     <div className={styles.exhibition}>
                         <h1>Exhibition</h1>
                         <br/>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <br/>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <br/>
+                        <p>
+                            Immerse yourself in a curated experience that unveils the mysteries of ancient civilizations, showcases exquisite craftsmanship, and celebrates the shared human narrative. 
+                            From artifacts that echo the grandeur of ancient empires to items reflecting the daily lives of diverse cultures, our museum invites you on a fascinating and enlightening journey. 
+                            Whether you're a history enthusiast or a curious explorer, our museum offers a unique opportunity to connect with the past and appreciate the global tapestry that has shaped our world.
+                        </p>
                     </div>
                     <div className={`${styles.photo} ${styles.photo01}`}/>
                 </div>

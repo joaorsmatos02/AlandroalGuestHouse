@@ -18,6 +18,7 @@ export default function Museum() {
             <div className={styles.infoWrapper}>
                 <div className={styles.contactsDiv}>
                     <h1>Contacts</h1>
+                    <h2>Call us and book directly</h2>
                     <ul>
                         <li><a href="tel:+351 961 324 529">+351 961 324 529</a></li>
                         <li><a href="tel:0032 496 659 587">0032 496 659 587</a></li>
@@ -30,11 +31,18 @@ export default function Museum() {
                 <div className={styles.historyDiv}>
                     <h1>History</h1>
                     <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Welcome to our timeless rural retreat in Alandroal, Alentejo, where the echoes of history resonate within a 300-year-old building. 
+                        Step into a world where every corner tells a story, and each room is a chapter in the narrative of our unique establishment. 
+                        Delve into the extraordinary at our on-site museum, a treasure trove boasting a vast collection of artifacts from across the globe, offering a fascinating journey through the ages.
+                    </p>
                     <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                    Our 16 rooms are adorned with rustic, old-school charm, each one a distinctive piece of our heritage. As you wander through our historic corridors, the past comes alive, and every room whispers its own tale. 
+                    Take a moment to unwind by our beautiful swimming pool, or find serenity in our designated relaxing and smoking areas, all while soaking in the picturesque views of the surrounding countryside. Begin your day with the delightful aroma of a freshly prepared breakfast, setting the tone for a day of exploration and relaxation. 
+                    At our rural haven, we invite you to not only experience the tranquility of Alentejo but also embark on a global journey through the ages, where each room unfolds a unique story from far-flung corners of the world
+                    </p>
+
+
                 </div>
                 <div className={styles.imagesWrapper}>
                     <div className={`${styles.vimage} ${styles.vimage1}`}/>
