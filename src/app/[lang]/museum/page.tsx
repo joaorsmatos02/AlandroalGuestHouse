@@ -2,10 +2,10 @@ import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/Navbar'
 import styles from './museum.module.css'
 
-export default function Home() {
+export default function Museum({ params: { lang } }: { params: { lang: string } }) {
   return (
     <div>
-        <NavBar />
+        <NavBar lang={lang} page="museum"/>
 
         <div className={styles.background}>
             <h1>Museum</h1>

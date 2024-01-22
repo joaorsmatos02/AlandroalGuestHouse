@@ -1,12 +1,13 @@
 import Link from 'next/link';
-import Footer from '../app/components/footer/Footer';
-import NavBar from '../app/components/navbar/Navbar'
+import Footer from '@/app/[lang]/components/footer/Footer';
+import NavBar from '@/app/[lang]/components/navbar/Navbar'
 import styles from './page.module.css'
 
-export default function Museum() {
-  return (
+export default function Page({ params: { lang } }: { params: { lang: string } }) {  
+    
+    return (
     <div>
-        <NavBar />
+        <NavBar lang={lang} page=""/>
 
         <div className={styles.background}>
             <h1>Alandroal Guest House</h1>

@@ -4,7 +4,7 @@ import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/Navbar'
 import styles from './rooms.module.css'
 
-export default function Museum() {
+export default function Rooms({ params: { lang } }: { params: { lang: string } }) {
 
     interface ImagesPerRoom {
         [roomId: string]: string[];
@@ -55,7 +55,7 @@ export default function Museum() {
 
   return (
     <div>
-        <NavBar />
+        <NavBar lang={lang} page="rooms"/>
         
         <div className={styles.secondDiv}>
 

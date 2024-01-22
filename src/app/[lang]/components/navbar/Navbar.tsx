@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styles from './Navbar.module.css';
 import Image from 'next/image';
 
-export default function NavBar() {
+export default function NavBar({lang, page}: {lang: string, page:string}) {
   const [scrolling, setScrolling] = useState(false);
 
   useEffect(() => {
@@ -28,13 +28,13 @@ export default function NavBar() {
       <div className={`${styles.topBar} ${scrolling ? styles.scrolled : ''}`}>
         <ul className={styles.navigation}>
           <li>
-            <Link href="/">About</Link>
+            <Link href={`/${lang}`}>About</Link>
           </li>
           <li>
-            <Link href="/rooms">Rooms</Link>
+            <Link href={`/${lang}/rooms/`}>Rooms</Link>
           </li>
           <li>
-            <Link href="/museum">Museum</Link>
+            <Link href={`/${lang}/museum/`}>Museum</Link>
           </li>
         </ul>
         <Image
@@ -46,13 +46,13 @@ export default function NavBar() {
         />
         <ul className={styles.navigation}>
           <li>
-            <Link href="/pt">pt</Link>
+            <Link href={`/pt/${page}`}>pt</Link>
           </li>
           <li>
-            <Link href="/en">en</Link>
+            <Link href={`/en/${page}`}>en</Link>
           </li>
           <li>
-            <Link href="/fr">fr</Link>
+            <Link href={`/fr/${page}`}>fr</Link>
           </li>
         </ul>
       </div>
