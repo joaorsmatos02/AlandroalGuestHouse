@@ -6,8 +6,10 @@
         "museum": "Museum"
     },
 
-    "contactsTitle": "Contacts",
-    "contactsSubscript": "Call us and book directly",
+    "contacts": {
+        "title": "Contacts",
+        "subscript": "Call us and book directly"
+    },
 
     "about": {
         "mainSubscript": "Rural Hotel",
@@ -87,5 +89,77 @@
           
         "museum": "See Our Museum",
         "gallery": "Gallery"
-    }
+    },
+
+    "museum": {
+        "title": "Museum",
+        "intro": "Welcome to our extraordinary museum, a captivating journey through the ages that transcends borders and encapsulates the essence of global heritage. Housed within the historic walls of our 300-year-old building in Alandroal, our museum is a testament to the richness and diversity of cultures from around the world. With a vast collection of artifacts, each with its own story to tell, our exhibits invite you to explore the beauty, artistry, and historical significance of civilizations spanning continents.",
+        "exhibition": {
+            "title": "Exhibition",
+            "description": "Immerse yourself in a curated experience that unveils the mysteries of ancient civilizations, showcases exquisite craftsmanship, and celebrates the shared human narrative. From artifacts that echo the grandeur of ancient empires to items reflecting the daily lives of diverse cultures, our museum invites you on a fascinating and enlightening journey. Whether you're a history enthusiast or a curious explorer, our museum offers a unique opportunity to connect with the past and appreciate the global tapestry that has shaped our world."
+        }
+    },
+
+    "rooms": {
+        "intro1": "Indulge in the epitome of comfort and luxury at our exceptional accommodations in Alandroal, setting a new standard for the finest rooms in the region. Meticulously designed for your utmost relaxation, our rooms seamlessly blend modern amenities with historic charm, creating an unparalleled retreat in Alentejo.",
+        "intro2": " Each space is a sanctuary of tranquility, promising an experience that goes beyond mere accommodation. Discover the pinnacle of comfort and sophistication, making your stay with us an unforgettable journey in the heart of Alandroal.",
+        "roomDetails": [
+          {
+            "name": "Pomba",
+            "description": "Welcome to Pomba, our rustic retreat in Alandroal. This cozy room offers two single beds, a well-equipped kitchen, and an elegant living room with leather couches. Step onto the balcony for a stunning view of Alandroal. Experience rural tranquility in style. This cozy space features a bedroom with two comfortable single beds and a well-appointed toilet. The inviting living room boasts elegant leather couches, creating a perfect spot for relaxation. The fully equipped kitchen allows for convenient meal preparation. Step outside onto the balcony, where a spacious table awaits, providing a breathtaking view of Alandroal's scenic beauty. Experience the tranquility of rural tourism in this delightful haven."
+          },
+          {
+            "name": "Hollywood",
+            "description": "Experience Hollywood glamour in our one-of-a-kind room named Hollywood. Decorated with iconic memorabilia, this unique space boasts a comfortable double bed, private toilet, and a sleek shower. Immerse yourself in the allure of the entertainment world amid the tranquility of rural surroundings. It's a stay like no other at our Hollywood-themed retreat. Indulge in a stay fit for the stars in our unique Hollywood at our rustic retreat. Adorned with iconic Hollywood decor, this distinctive space features a comfortable double bed, a private toilet, and a sleek shower for your convenience. Immerse yourself in the glamour and allure of the entertainment world right in the heart of rural tranquility. Experience a stay like no other in our one-of-a-kind Hollywood-themed retreat."
+          },
+          {
+            "name": "Blue",
+            "description": "Step into the soothing ambiance of our 'Blue' room at our rural retreat. With two comfortable single beds and a private toilet, this cozy space is immersed in calming shades of blue. Experience the tranquility of rural charm in this thoughtfully decorated retreat, providing a peaceful haven for your stay."
+          },
+          {
+            "name": "Dourado",
+            "description": "Indulge in luxury at our Golden room, featuring a comfortable double bed and private toilet, all adorned in resplendent golden decor. Experience a uniquely opulent stay, where rural charm meets lavish elegance."
+          },
+          {
+            "name": "Rosa",
+            "description": "Welcome to the luxurious Pink room at our rural retreat. Enjoy a cozy double bed, private toilet, and immerse yourself in an enchanting all-pink decor. Experience a uniquely opulent stay, where luxury seamlessly blends with the charm of the countryside."
+          },
+          {
+            "name": "Vermelho",
+            "description": "Discover luxury in the Red room at our rural retreat, featuring a cozy double bed and a private toilet, all adorned in captivating all-red decor. Immerse yourself in opulence as you experience the perfect blend of comfort and rural charm. Your stay promises a memorable and indulgent escape."
+          },
+          {
+            "name": "Verde",
+            "description": "Indulge in luxury at our Green room, featuring two comfortable single beds and a private toilet, all adorned in soothing all-green decor. Immerse yourself in a unique blend of rural charm and opulence, creating the perfect escape for relaxation amid nature's embrace."
+          },
+          {
+            "name": "Espelhos",
+            "description": "Welcome to the Espelhos room at our rural retreat. With a comfortable double bed and a private toilet, this cozy space offers a serene haven amidst the countryside. Immerse yourself in the reflective tranquility of our thoughtfully designed room, where modern comforts meet the charm of rural living."
+          },
+          {
+            "name": "Xana",
+            "description": "Welcome to the unique Xana room at our rural retreat. With two beds and a private toilet, this charming space offers comfort and tranquility. Enjoy a distinctive view, blending historical charm with the serenity of rural living for an unforgettable stay."
+          },
+          {
+            "name": "Xana Casal",
+            "description": "Welcome to the Xana Casal room, a cozy retreat for couples at our rural haven. Featuring a comfortable double bed and a private toilet, this space offers the perfect blend of comfort and serenity. Enjoy a unique view that adds a touch of magic to your romantic getaway in the countryside."
+          },
+          {
+            "name": "Gessos",
+            "description": "Welcome to the Gessos room, a tranquil retreat at our rural haven. With a comfortable double bed and a private toilet, this space offers a perfect blend of comfort and serenity. Immerse yourself in the peaceful ambiance of the countryside, creating an ideal escape for a relaxing stay."
+          },
+          {
+            "name": "Passarinhos",
+            "description": "Welcome to the 'Passarinhos' room, a serene retreat at our rural haven. Featuring a comfortable double bed and a private toilet, this space provides the perfect balance of comfort and tranquility. Immerse yourself in the peaceful ambiance of the countryside, creating an ideal escape for a restful stay."
+          },
+          {
+            "name": "Poço",
+            "description": "Welcome to the unique Poço room at our rural haven. This distinctive space features a one-of-a-kind tabletop with a well underground, adding a touch of novelty to your stay. With a comfortable double bed, private toilet, and a cozy living room, the Poço room offers a perfect blend of comfort and charm. Immerse yourself in the tranquil ambiance of the countryside, creating an ideal escape for a memorable and relaxing stay."
+          },
+          {
+            "name": "Apartamento",
+            "description": "Welcome to our charming apartment, aptly named Apartamento. This delightful space features two single beds, a fully equipped kitchen, and a private toilet. Immerse yourself in the comfortable ambiance of this unique accommodation, offering the perfect blend of convenience and tranquility. Whether you're exploring the kitchen's culinary possibilities or simply relaxing in this cozy space, the Apartamento ensures a delightful and memorable stay at our rural retreat."
+          }
+        ]
+      }
 }

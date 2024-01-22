@@ -20,8 +20,8 @@ export default async function Page({ params: { lang } }: { params: { lang: strin
 
             <div className={styles.infoWrapper}>
                 <div className={styles.contactsDiv}>
-                    <h1>{dictionary.contactsTitle}</h1>
-                    <h2>{dictionary.contactsSubscript}</h2>
+                    <h1>{dictionary.contacts.title}</h1>
+                    <h2>{dictionary.contacts.subscript}</h2>
                     <ul>
                         <li><a href="tel:+351 961 324 529">+351 961 324 529</a></li>
                         <li><a href="tel:0032 496 659 587">0032 496 659 587</a></li>
