@@ -6,10 +6,7 @@
         "museum": "Museum"
     },
 
-    "contacts": {
-        "title": "Contacts",
-        "subscript": "Call us and book directly"
-    },
+    "contacts": "Call us and book directly",
 
     "about": {
         "mainSubscript": "Rural Hotel",

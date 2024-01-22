@@ -5,10 +5,7 @@
       "museum": "Museu"
     },
 
-    "contacts": {
-      "title": "Contactos",
-      "subscript": "Ligue-nos e reserve diretamente"
-    },
+    "contacts": "Ligue-nos e reserve diretamente",
 
     "about": {
       "mainSubscript": "Hotel Rural",
