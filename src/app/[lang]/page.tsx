@@ -36,8 +36,6 @@ export default async function Page({ params: { lang } }: { params: { lang: strin
                     <p>{dictionary.about.history.text1}</p>
                     <br/>
                     <p>{dictionary.about.history.text2}</p>
-
-
                 </div>
                 <div className={styles.imagesWrapper}>
                     <div className={`${styles.vimage} ${styles.vimage1}`}/>

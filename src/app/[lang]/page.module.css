@@ -64,6 +64,7 @@
     text-justify: inter-word;
     width: 50%;
     height: 40em;
+    overflow: scroll;
 }
 
 .imagesWrapper {
@@ -102,6 +103,7 @@
     flex: 2;
     height: 40em;
     padding: 3em;
+    overflow: scroll;
 }
 
 .roomInfo h1 {

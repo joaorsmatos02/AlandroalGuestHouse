@@ -87,9 +87,9 @@ export default function Rooms({ params: { lang } }: { params: { lang: string } }
             <div className={styles.infoWrapper}>
                     <div className={styles.imageTextWrapper}>
                         <div className={styles.amenities}>
-                        <p>{dictionary.rooms.intro1}</p>
-                        <br/>
-                        <p>{dictionary.rooms.intro2}</p>
+                            <p>{dictionary.rooms.intro1}</p>
+                            <br/>
+                            <p>{dictionary.rooms.intro2}</p>
                         </div>
                         <div className={`${styles.room} ${styles.room0}`}/>
                     </div>
