@@ -1,0 +1,84 @@
+{
+    "contactsTitle": "Contacts",
+    "contactsSubscript": "Call us and book directly",
+
+    "about": {
+        "mainSubscript": "Rural Hotel",
+
+        "history": {
+            "title": "History",
+            "text1": "Welcome to our timeless rural retreat in Alandroal, Alentejo, where the echoes of history resonate within a 300-year-old building. Step into a world where every corner tells a story, and each room is a chapter in the narrative of our unique establishment. Delve into the extraordinary at our on-site museum, a treasure trove boasting a vast collection of artifacts from across the globe, offering a fascinating journey through the ages.",
+            "text2": "Our 16 rooms are adorned with rustic, old-school charm, each one a distinctive piece of our heritage. As you wander through our historic corridors, the past comes alive, and every room whispers its own tale. Take a moment to unwind by our beautiful swimming pool, or find serenity in our designated relaxing and smoking areas, all while soaking in the picturesque views of the surrounding countryside. Begin your day with the delightful aroma of a freshly prepared breakfast, setting the tone for a day of exploration and relaxation. At our rural haven, we invite you to not only experience the tranquility of Alentejo but also embark on a global journey through the ages, where each room unfolds a unique story from far-flung corners of the world"
+        },
+        
+        "amenities": {
+            "title": "Amenities",
+            "checklist": [
+            {
+                "category": "General",
+                "items": [
+                    "Air conditioning",
+                    "Heating",
+                    "Smoking areas",
+                    "Family Rooms",
+                    "Shared Rooms"
+                ]
+            },
+            {
+                "category": "Food",
+                "items": [
+                    "Room Service"
+                ]
+            },
+            {
+                "category": "Pool",
+                "items": [
+                    "Exterior Pool",
+                    "Pool Bar"
+                ]
+            },
+            {
+                "category": "Technology",
+                "items": [
+                "Free internet access throughout",
+                "Television"
+                ]
+            },
+            {
+                "category": "Bathrooms",
+                "items": [
+                    "Toilet Paper",
+                    "Towels",
+                    "Bathtub / Shower",
+                    "Private Bathroom",
+                    "Hairdryer"
+                ]
+            },
+            {
+                "category": "Cleaning",
+                "items": [
+                    "Free Daily Cleaning"
+                ]
+            },
+            {
+                "category": "Bedroom",
+                "items": [
+                    "Bed Sheets"
+                ]
+            },
+            {
+                "category": "Exterior",
+                "items": [
+                    "Outdoor Furniture",
+                    "Sunbathing Terrace",
+                    "Terrace",
+                    "Garden"
+                ]
+            }
+            ]
+        },
+          
+        "museum": "See Our Museum",
+        "gallery": "Gallery"
+    }
+}

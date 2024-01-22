@@ -3,23 +3,25 @@ import Footer from '@/app/[lang]/components/footer/Footer';
 import NavBar from '@/app/[lang]/components/navbar/Navbar'
 import styles from './page.module.css'
 
-export default function Page({ params: { lang } }: { params: { lang: string } }) {  
+export default async function Page({ params: { lang } }: { params: { lang: string } }) {  
     
+    const dictionary = await import(`@/dictionaries/${lang}.json`);
+
     return (
     <div>
         <NavBar lang={lang} page=""/>
 
         <div className={styles.background}>
             <h1>Alandroal Guest House</h1>
-            <h2>Hotel Rural &#x22C6;&#x22C6;&#x22C6;</h2>
+            <h2>{dictionary.about.mainSubscript} &#x22C6;&#x22C6;&#x22C6;</h2>
         </div>
 
         <div className={styles.secondDiv}>
 
             <div className={styles.infoWrapper}>
                 <div className={styles.contactsDiv}>
-                    <h1>Contacts</h1>
-                    <h2>Call us and book directly</h2>
+                    <h1>{dictionary.contactsTitle}</h1>
+                    <h2>{dictionary.contactsSubscript}</h2>
                     <ul>
                         <li><a href="tel:+351 961 324 529">+351 961 324 529</a></li>
                         <li><a href="tel:0032 496 659 587">0032 496 659 587</a></li>
@@ -30,18 +32,11 @@ export default function Page({ params: { lang } }: { params: { lang: string } })
 
             <div className={styles.infoWrapper}>
                 <div className={styles.historyDiv}>
-                    <h1>History</h1>
+                    <h1>{dictionary.about.history.title}</h1>
                     <br/>
-                    <p>Welcome to our timeless rural retreat in Alandroal, Alentejo, where the echoes of history resonate within a 300-year-old building. 
-                        Step into a world where every corner tells a story, and each room is a chapter in the narrative of our unique establishment. 
-                        Delve into the extraordinary at our on-site museum, a treasure trove boasting a vast collection of artifacts from across the globe, offering a fascinating journey through the ages.
-                    </p>
+                    <p>{dictionary.about.history.text1}</p>
                     <br/>
-                    <p>
-                    Our 16 rooms are adorned with rustic, old-school charm, each one a distinctive piece of our heritage. As you wander through our historic corridors, the past comes alive, and every room whispers its own tale. 
-                    Take a moment to unwind by our beautiful swimming pool, or find serenity in our designated relaxing and smoking areas, all while soaking in the picturesque views of the surrounding countryside. Begin your day with the delightful aroma of a freshly prepared breakfast, setting the tone for a day of exploration and relaxation. 
-                    At our rural haven, we invite you to not only experience the tranquility of Alentejo but also embark on a global journey through the ages, where each room unfolds a unique story from far-flung corners of the world
-                    </p>
+                    <p>{dictionary.about.history.text2}</p>
 
 
                 </div>
@@ -54,73 +49,73 @@ export default function Page({ params: { lang } }: { params: { lang: string } })
             <div className={`${styles.infoWrapper} ${styles.secondaryColor}`}>
                     <div className={styles.secondBackground} />
                     <div className={styles.roomInfo}>
-                        <h1>Amenities</h1>
+                        <h1>{dictionary.about.amenities.title}</h1>
                         <div className={styles.checklistWrapper}>
                             <div className={styles.checklistColumn}>
-                            <h2><img src='info.png' className={styles.icon}/> General</h2>
+                            <h2><img src='info.png' className={styles.icon}/> {dictionary.about.amenities.checklist[0].category}</h2>
                                 <ul>
-                                    <li>Air conditioning</li>
-                                    <li>Heating</li>
-                                    <li>Smoking areas</li>
-                                    <li>Family Rooms</li>
-                                    <li>Shared Rooms</li>
+                                    <li>{dictionary.about.amenities.checklist[0].items[0]}</li>
+                                    <li>{dictionary.about.amenities.checklist[0].items[1]}</li>
+                                    <li>{dictionary.about.amenities.checklist[0].items[2]}</li>
+                                    <li>{dictionary.about.amenities.checklist[0].items[3]}</li>
+                                    <li>{dictionary.about.amenities.checklist[0].items[4]}</li>
                                 </ul>
-                                <h2><img src='restaurant.png' className={styles.icon}/> Food</h2>
+                                <h2><img src='restaurant.png' className={styles.icon}/> {dictionary.about.amenities.checklist[1].category}</h2>
                                 <ul>
-                                    <li>Room Service</li>
+                                    <li>{dictionary.about.amenities.checklist[1].items[0]}</li>
                                 </ul>
-                                <h2><img src='swimming.png' className={styles.icon}/> Pool</h2>
+                                <h2><img src='swimming.png' className={styles.icon}/> {dictionary.about.amenities.checklist[2].category}</h2>
                                 <ul>
-                                    <li>Exterior Pool</li>
-                                    <li>Pool Bar</li>
-                                </ul>
-                            </div>
-
-                            <div className={styles.checklistColumn}>
-                                <h2><img src='monitor.png' className={styles.icon}/>Technology</h2>
-                                <ul>
-                                    <li>Free internet access throughout</li>
-                                    <li>Television</li>
-                                </ul>
-                                <h2><img src='bathtub.png' className={styles.icon}/>Bathrooms</h2>
-                                <ul>
-                                    <li>Toilet Paper</li>
-                                    <li>Towels</li>
-                                    <li>Bathtub / Shower</li>
-                                    <li>Private Bathroom</li>
-                                    <li>Hairdryer</li>
-                                </ul>
-                                <h2><img src='clean.png' className={styles.icon}/>Cleaning</h2>
-                                <ul>
-                                    <li>Free Daily Cleaning</li>
+                                    <li>{dictionary.about.amenities.checklist[2].items[0]}</li>
+                                    <li>{dictionary.about.amenities.checklist[2].items[1]}</li>
                                 </ul>
                             </div>
 
                             <div className={styles.checklistColumn}>
-                                <h2><img src='bed.png' className={styles.icon}/>Bedroom</h2>
+                                <h2><img src='monitor.png' className={styles.icon}/>{dictionary.about.amenities.checklist[3].category}</h2>
                                 <ul>
-                                    <li>Bed Sheets</li>
+                                    <li>{dictionary.about.amenities.checklist[3].items[0]}</li>
+                                    <li>{dictionary.about.amenities.checklist[3].items[1]}</li>
                                 </ul>
-                                <h2><img src='garden.png' className={styles.icon}/>Exterior</h2>
+                                <h2><img src='bathtub.png' className={styles.icon}/>{dictionary.about.amenities.checklist[4].category}</h2>
                                 <ul>
-                                    <li>Outdoor Furniture</li>
-                                    <li>Sunbathing Terrace</li>
-                                    <li>Terrace</li>
-                                    <li>Garden</li>
+                                    <li>{dictionary.about.amenities.checklist[4].items[0]}</li>
+                                    <li>{dictionary.about.amenities.checklist[4].items[1]}</li>
+                                    <li>{dictionary.about.amenities.checklist[4].items[2]}</li>
+                                    <li>{dictionary.about.amenities.checklist[4].items[3]}</li>
+                                    <li>{dictionary.about.amenities.checklist[4].items[4]}</li>
+                                </ul>
+                                <h2><img src='clean.png' className={styles.icon}/>{dictionary.about.amenities.checklist[5].category}</h2>
+                                <ul>
+                                    <li>{dictionary.about.amenities.checklist[5].items[0]}</li>
+                                </ul>
+                            </div>
+
+                            <div className={styles.checklistColumn}>
+                                <h2><img src='bed.png' className={styles.icon}/>{dictionary.about.amenities.checklist[6].category}</h2>
+                                <ul>
+                                    <li>{dictionary.about.amenities.checklist[6].items[0]}</li>
+                                </ul>
+                                <h2><img src='garden.png' className={styles.icon}/>{dictionary.about.amenities.checklist[7].category}</h2>
+                                <ul>
+                                    <li>{dictionary.about.amenities.checklist[7].items[0]}</li>
+                                    <li>{dictionary.about.amenities.checklist[7].items[1]}</li>
+                                    <li>{dictionary.about.amenities.checklist[7].items[2]}</li>
+                                    <li>{dictionary.about.amenities.checklist[7].items[3]}</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <Link href="/museum">
+                <Link href={`/${lang}/museum/`}>
                     <div className={styles.museumDiv}>
-                        <h1>See Our Museum</h1>
+                        <h1>{dictionary.about.museum}</h1>
                     </div>
                 </Link>
 
                 <div className={styles.line}>
-                    <h1>Gallery</h1>
+                    <h1>{dictionary.about.gallery}</h1>
                 </div>
 
                 <div className={styles.infoWrapper}>
