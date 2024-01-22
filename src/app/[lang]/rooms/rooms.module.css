@@ -175,12 +175,3 @@
     background-attachment: local;
     background-size:cover;
 }
-
-/**********************************************************************/
-
-.endBackground {
-    position: relative;
-    height: 50vh;
-    background: url('/images/10_Xana Casal/71.jpg') no-repeat center center fixed;
-    background-size: cover;
-}

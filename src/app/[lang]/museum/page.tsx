@@ -63,9 +63,7 @@ export default async function Museum({ params: { lang } }: { params: { lang: str
 
         </div>
 
-        <div className={styles.endBackground}>
-            <Footer/>
-        </div>
+        <Footer/>
 
     </div>
   );

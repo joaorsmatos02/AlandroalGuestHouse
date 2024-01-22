@@ -282,12 +282,3 @@
     background-size:cover;
     width:100%
 }
-
-/**********************************************************************/
-
-.endBackground {
-    position: relative;
-    height: 50vh;
-    background: url('/images/Exterior/114.jpg') no-repeat center center fixed;
-    background-size: cover;
-}

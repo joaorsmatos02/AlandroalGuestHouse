@@ -266,9 +266,7 @@ export default function Rooms({ params: { lang } }: { params: { lang: string } }
 
         </div>
 
-        <div className={styles.endBackground}>
-            <Footer/>
-        </div>
+        <Footer/>
 
     </div>
   );

@@ -12,7 +12,7 @@ export default async function Page({ params: { lang } }: { params: { lang: strin
         <NavBar lang={lang} page=""/>
 
         <div className={styles.background}>
-            <h1>Alandroal Guest House</h1>
+            <h1>Alandroal GuestHouse</h1>
             <h2>{dictionary.about.mainSubscript} &#x22C6;&#x22C6;&#x22C6;</h2>
         </div>
 
@@ -138,9 +138,7 @@ export default async function Page({ params: { lang } }: { params: { lang: strin
 
         </div>
 
-        <div className={styles.endBackground}>
-            <Footer/>
-        </div>
+        <Footer/>
 
     </div>
   );

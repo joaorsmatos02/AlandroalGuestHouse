@@ -187,12 +187,3 @@
     background-size:cover;
     width:66%
 }
-
-/**********************************************************************/
-
-.endBackground {
-    position: relative;
-    height: 50vh;
-    background: url('/images/Museu/154.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
