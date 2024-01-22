@@ -6,6 +6,7 @@
     },
 
     "contacts": "Ligue-nos e reserve diretamente",
+    "contactWarning": "(chamada para rede móvel nacional)",
 
     "about": {
       "mainSubscript": "Hotel Rural",
@@ -94,7 +95,7 @@
     },
 
     "rooms": {
-        "intro1": "Desfrute do ápice do conforto e luxo nas nossas acomodações excepcionais em Alandroal, estabelecendo um novo padrão para os melhores quartos da região. Meticulosamente projetados, os nossos quartos misturam perfeitamente comodidades modernas com charme histórico, criando um retiro incomparável no Alentejo.",
+        "intro1": "Disfrute do ápice do conforto e luxo nas nossas acomodações excepcionais em Alandroal, estabelecendo um novo padrão para os melhores quartos da região. Meticulosamente projetados, os nossos quartos misturam perfeitamente comodidades modernas com charme histórico, criando um retiro incomparável no Alentejo.",
         "intro2": "Cada espaço é um santuário de tranquilidade, prometendo uma experiência que vai além da simples acomodação. Descubra o pináculo do conforto e sofisticação, tornando sua estadia connosco uma jornada inesquecível no coração de Alandroal.",
         "roomDetails": [
             {

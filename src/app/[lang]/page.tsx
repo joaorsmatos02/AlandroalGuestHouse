@@ -22,7 +22,7 @@ export default async function Page({ params: { lang } }: { params: { lang: strin
                 <div className={styles.contactsDiv}>
                     <h1>{dictionary.contacts}</h1>
                     <ul>
-                        <li><a href="tel:+351 961 324 529">+351 961 324 529</a></li>
+                        <li><a href="tel:+351 961 324 529">+351 961 324 529</a><br/>{dictionary.contactWarning}</li>
                         <li><a href="tel:0032 496 659 587">0032 496 659 587</a></li>
                         <li><a href="mailto:feelalentejoalandroal@hotmail.com">feelalentejoalandroal@hotmail.com</a></li>
                     </ul>
