@@ -1,0 +1,161 @@
+{
+    "navbar": {
+      "about": "Sobre",
+      "rooms": "Quartos",
+      "museum": "Museu"
+    },
+
+    "contacts": {
+      "title": "Contactos",
+      "subscript": "Ligue-nos e reserve diretamente"
+    },
+
+    "about": {
+      "mainSubscript": "Hotel Rural",
+      "history": {
+        "title": "História",
+        "text1": "Bem-vindo ao nosso eterno retiro rural em Alandroal, Alentejo, onde os ecos da história ressoam dentro de um edifício com 300 anos. Entre num mundo onde cada canto conta uma história, e cada quarto é um capítulo na narrativa do nosso estabelecimento único. Explore o extraordinário no nosso museu no local, um tesouro com uma vasta coleção de artefactos de todo o mundo, oferecendo uma jornada fascinante pelas eras.",
+        "text2": "Os nossos 16 quartos são adornados com charme rústico e antigo, cada um uma peça distinta de nossa herança. Ao percorrer nossos corredores históricos, o passado ganha vida, e cada quarto sussurra sua própria história. Reserve um momento para relaxar na nossa bela piscina ou encontre a serenidade nas nossas áreas designadas para relaxamento e fumantes, tudo enquanto aprecia as vistas pitorescas da paisagem circundante. Comece o dia com o delicioso aroma de um pequeno almoço recém-preparado, preparando o cenário para um dia de exploração e relaxamento. no nosso refúgio rural, convidamos não apenas a experimentar a tranquilidade do Alentejo, mas também embarcar numa jornada global pelas eras, onde cada quarto desvenda uma história única de cantos distantes do mundo."
+      },
+
+      "amenities": {
+        "title": "Comodidades",
+        "checklist": [
+          {
+            "category": "Geral",
+            "items": [
+              "Ar condicionado",
+              "Aquecimento",
+              "Áreas para fumadores",
+              "Quartos familiares",
+              "Quartos partilhados"
+            ]
+          },
+          {
+            "category": "Comida",
+            "items": [
+              "Serviço de quarto"
+            ]
+          },
+          {
+            "category": "Piscina",
+            "items": [
+              "Piscina exterior",
+              "Bar de piscina"
+            ]
+          },
+          {
+            "category": "Tecnologia",
+            "items": [
+              "Acesso gratuito à internet",
+              "Televisão"
+            ]
+          },
+          {
+            "category": "Casas de banho",
+            "items": [
+              "Papel higiénico",
+              "Toalhas",
+              "Banheira / Chuveiro",
+              "Casa de banho privativa",
+              "Secador de cabelo"
+            ]
+          },
+          {
+            "category": "Limpeza",
+            "items": [
+              "Limpeza diária gratuita"
+            ]
+          },
+          {
+            "category": "Quarto",
+            "items": [
+              "Lençóis"
+            ]
+          },
+          {
+            "category": "Exterior",
+            "items": [
+              "Mobília exterior",
+              "Terraço",
+              "Jardim"
+            ]
+          }
+        ]
+      },
+      "museum": "Veja o nosso museu",
+      "gallery": "Galeria"
+    },
+
+    "museum": {
+      "title": "Museu",
+      "intro": "Bem-vindo ao nosso extraordinário museu, uma jornada cativante pelas eras que transcende fronteiras e encapsula a essência do patrimônio global. Localizado nas paredes históricas do nosso edifício com 300 anos, o nosso museu é um testemunho da riqueza e diversidade de culturas de todo o mundo. Com uma vasta coleção de artefactos, cada um com sua própria história, as nossas exposições convidam a explorar a beleza, a arte e a importância histórica de civilizações que abrangem continentes.",
+      "exhibition": {
+        "title": "Exposição",
+        "description": "Mergulhe numa experiência cuidadosamente elaborada que revela os mistérios das civilizações antigas, destaca o artesanato requintado e celebra a narrativa humana. De artefatos que ecoam a grandiosidade dos impérios antigos a itens que refletem a vida diária de diversas culturas, o nosso museu oferece uma oportunidade única para se ligar ao passado e apreciar a tapeçaria global que moldou o nosso mundo, quer seja um entusiasta de história ou um explorador curioso."
+      }
+    },
+
+    "rooms": {
+        "intro1": "Desfrute do ápice do conforto e luxo nas nossas acomodações excepcionais em Alandroal, estabelecendo um novo padrão para os melhores quartos da região. Meticulosamente projetados, os nossos quartos misturam perfeitamente comodidades modernas com charme histórico, criando um retiro incomparável no Alentejo.",
+        "intro2": "Cada espaço é um santuário de tranquilidade, prometendo uma experiência que vai além da simples acomodação. Descubra o pináculo do conforto e sofisticação, tornando sua estadia connosco uma jornada inesquecível no coração de Alandroal.",
+        "roomDetails": [
+            {
+            "name": "Pomba",
+            "description": "Bem-vindo à Pomba, o nosso refúgio rústico em Alandroal. Este quarto aconchegante oferece duas camas de solteiro, uma cozinha bem equipada e uma sala de estar elegante com sofás de pele. Saia para a varanda para uma vista deslumbrante. Experimente a tranquilidade rural com estilo. Este espaço aconchegante dispõe também de uma casa de banho equipada. A cozinha totalmente equipada permite uma preparação conveniente de refeições. Experimente a tranquilidade do turismo rural neste refúgio encantador."
+            },
+            {
+            "name": "Hollywood",
+            "description": "Viva o glamour de Hollywood no nosso quarto exclusivo. Decorado com memorabilia icónica, este espaço único possui uma confortável cama de casal, casa de banho privativa e um chuveiro elegante. Mergulhe no fascínio do mundo do entretenimento em meio à tranquilidade dos arredores rurais. Mime-se com uma estadia digna das estrelas no nosso Hollywood exclusivo. Experimente uma estadia única no nosso retiro temático de Hollywood."
+            },
+            {
+            "name": "Blue",
+            "description": "Entre na atmosfera tranquila de nosso quarto blue no nosso retiro rural. Com duas camas de solteiro confortáveis e uma casa de banho privativa, este espaço aconchegante está imerso em tons calmantes de azul. Experimente a tranquilidade do charme rural neste retiro cuidadosamente decorado, proporcionando um refúgio pacífico para sua estadia."
+            },
+            {
+            "name": "Dourado",
+            "description": "Mime-se com o luxo no nosso quarto Dourado, apresentando uma confortável cama de casal e casa de banho privada, tudo adornado com uma decoração dourada resplandecente. Experimente uma estadia opulenta e única, onde o charme rural encontra a elegância luxuosa."
+            },
+            {
+            "name": "Rosa",
+            "description": "Bem-vindo ao luxuoso quarto Rosa no nosso retiro rural. Desfrute de uma aconchegante cama de casal, casa de banho privada e mergulhe em uma encantadora decoração toda em rosa. Experimente uma estadia opulenta e única, onde o luxo se mistura perfeitamente com o charme do campo."
+            },
+            {
+            "name": "Vermelho",
+            "description": "Descubra o luxo no quarto Vermelho no nosso retiro rural, apresentando uma confortável cama de casal e uma casa de banho privativa, tudo adornado com uma cativante decoração toda em vermelho. Mergulhe na opulência enquanto experimenta a combinação perfeita de conforto e charme rural. A sua estadia promete uma fuga memorável e indulgente."
+            },
+            {
+            "name": "Verde",
+            "description": "Mime-se com o luxo no nosso quarto Verde, apresentando duas camas de solteiro confortáveis e uma casa de banho privativa, tudo adornado com uma decoração toda em verde calmante. Mergulhe numa mistura única de charme rural e opulência, criando o escape perfeito para relaxar."
+            },
+            {
+                "name": "Espelhos",
+                "description": "Bem-vindo ao quarto Espelhos no nosso retiro rural. Com uma confortável cama de casal e uma casa de banho privativa, este espaço aconchegante oferece um refúgio sereno no meio do campo. Mergulhe na tranquilidade reflexiva de nosso quarto cuidadosamente projetado, onde o conforto moderno encontra o charme da vida rural."
+            },
+            {
+                "name": "Xana",
+                "description": "Bem-vindo ao quarto Xana, único no nosso retiro rural. Com duas camas e uma casa de banho privativa, este espaço encantador oferece conforto e tranquilidade. Desfrute de uma vista distinta, mesclando o charme histórico com a serenidade da vida rural para uma estadia inesquecível."
+            },
+            {
+                "name": "Xana Casal",
+                "description": "Bem-vindo ao quarto Xana Casal, um refúgio aconchegante para casais no nosso refúgio rural. Apresentando uma confortável cama de casal e uma casa de banho privativa, este espaço oferece a combinação perfeita de conforto e serenidade. Desfrute de uma vista única que adiciona um toque de magia à sua escapada romântica no campo."
+            },
+            {
+                "name": "Gessos",
+                "description": "Bem-vindo ao quarto Gessos, um refúgio tranquilo no nosso refúgio rural. Com uma confortável cama de casal e uma casa de banho privativa, este espaço oferece uma combinação perfeita de conforto e serenidade. Mergulhe na atmosfera pacífica do campo, criando um refúgio ideal para uma estadia relaxante."
+            },
+            {
+                "name": "Passarinhos",
+                "description": "Bem-vindo ao quarto Passarinhos, um refúgio sereno no nosso refúgio rural. Apresentando uma confortável cama de casal e uma casa de banho privativa, este espaço oferece o equilíbrio perfeito entre conforto e tranquilidade. Mergulhe na atmosfera pacífica do campo, criando um refúgio ideal para uma estadia tranquila."
+            },
+            {
+                "name": "Poço",
+                "description": "Bem-vindo ao quarto Poço único no nosso refúgio rural. Este espaço distintivo apresenta uma mesa exclusiva com um poço subterrâneo, adicionando um toque de novidade à sua estadia. Com uma confortável cama de casal, casa de banho privada e uma sala de estar aconchegante, o quarto Poço oferece uma combinação perfeita de conforto e charme. Mergulhe na atmosfera tranquila do campo, criando um refúgio ideal para uma estadia memorável e relaxante."
+            },
+            {
+                "name": "Apartamento",
+                "description": "Bem-vindo ao nosso charmoso apartamento, apropriadamente chamado de Apartamento. Este espaço encantador apresenta duas camas de solteiro, uma cozinha totalmente equipada e uma casa de banho privativa. Mergulhe na atmosfera confortável desta acomodação única, oferecendo a combinação perfeita de conveniência e tranquilidade. Quer esteja a explorar as possibilidades culinárias da cozinha ou simplesmente a relaxar neste espaço aconchegante, o Apartamento garante uma estadia encantadora e memorável no nosso retiro rural."
+            }
+        ]
+    }
+}
