@@ -90,7 +90,7 @@
       "intro": "Bem-vindo ao nosso extraordinário museu, uma jornada cativante pelas eras que transcende fronteiras e encapsula a essência do patrimônio global. Localizado nas paredes históricas do nosso edifício com 300 anos, o nosso museu é um testemunho da riqueza e diversidade de culturas de todo o mundo. Com uma vasta coleção de artefactos, cada um com sua própria história, as nossas exposições convidam a explorar a beleza, a arte e a importância histórica de civilizações que abrangem continentes.",
       "exhibition": {
         "title": "Exposição",
-        "description": "Mergulhe numa experiência cuidadosamente elaborada que revela os mistérios das civilizações antigas, destaca o artesanato requintado e celebra a narrativa humana. De artefatos que ecoam a grandiosidade dos impérios antigos a itens que refletem a vida diária de diversas culturas, o nosso museu oferece uma oportunidade única para se ligar ao passado e apreciar a tapeçaria global que moldou o nosso mundo, quer seja um entusiasta de história ou um explorador curioso."
+        "description": "Mergulhe numa experiência cuidadosamente elaborada que revela os mistérios das civilizações antigas, destaca o artesanato requintado e celebra a narrativa humana. De artefactos que ecoam a grandiosidade dos impérios antigos a objetos que refletem a vida diária de diversas culturas, o nosso museu oferece uma oportunidade única para se ligar ao passado e apreciar a tapeçaria global que moldou o nosso mundo, quer seja um entusiasta de história ou um explorador curioso."
       }
     },
 
@@ -108,7 +108,7 @@
             },
             {
             "name": "Blue",
-            "description": "Entre na atmosfera tranquila de nosso quarto blue no nosso retiro rural. Com duas camas de solteiro confortáveis e uma casa de banho privativa, este espaço aconchegante está imerso em tons calmantes de azul. Experimente a tranquilidade do charme rural neste retiro cuidadosamente decorado, proporcionando um refúgio pacífico para sua estadia."
+            "description": "Entre na atmosfera tranquila do nosso quarto Blue no nosso retiro rural. Com duas camas de solteiro confortáveis e uma casa de banho privativa, este espaço aconchegante está imerso em tons calmantes de azul. Experimente a tranquilidade do charme rural neste retiro cuidadosamente decorado, proporcionando um refúgio pacífico para sua estadia."
             },
             {
             "name": "Dourado",
@@ -116,7 +116,7 @@
             },
             {
             "name": "Rosa",
-            "description": "Bem-vindo ao luxuoso quarto Rosa no nosso retiro rural. Desfrute de uma aconchegante cama de casal, casa de banho privada e mergulhe em uma encantadora decoração toda em rosa. Experimente uma estadia opulenta e única, onde o luxo se mistura perfeitamente com o charme do campo."
+            "description": "Bem-vindo ao luxuoso quarto Rosa no nosso retiro rural. Desfrute de uma aconchegante cama de casal, casa de banho privada e mergulhe numa encantadora decoração toda em rosa. Experimente uma estadia opulenta e única, onde o luxo se mistura perfeitamente com o charme do campo."
             },
             {
             "name": "Vermelho",
@@ -132,7 +132,7 @@
             },
             {
                 "name": "Xana",
-                "description": "Bem-vindo ao quarto Xana, único no nosso retiro rural. Com duas camas e uma casa de banho privativa, este espaço encantador oferece conforto e tranquilidade. Desfrute de uma vista distinta, mesclando o charme histórico com a serenidade da vida rural para uma estadia inesquecível."
+                "description": "Bem-vindo ao quarto Xana, único no nosso retiro rural. Com duas camas e uma casa de banho privativa, este espaço encantador oferece conforto e tranquilidade. Desfrute de uma vista distinta, misturando o charme histórico com a serenidade da vida rural para uma estadia inesquecível."
             },
             {
                 "name": "Xana Casal",
@@ -140,15 +140,15 @@
             },
             {
                 "name": "Gessos",
-                "description": "Bem-vindo ao quarto Gessos, um refúgio tranquilo no nosso refúgio rural. Com uma confortável cama de casal e uma casa de banho privativa, este espaço oferece uma combinação perfeita de conforto e serenidade. Mergulhe na atmosfera pacífica do campo, criando um refúgio ideal para uma estadia relaxante."
+                "description": "Bem-vindo ao quarto Gessos, um lugar tranquilo no nosso refúgio rural. Com uma confortável cama de casal e uma casa de banho privativa, este espaço oferece uma combinação perfeita de conforto e serenidade. Mergulhe na atmosfera pacífica do campo, criando um refúgio ideal para uma estadia relaxante."
             },
             {
                 "name": "Passarinhos",
-                "description": "Bem-vindo ao quarto Passarinhos, um refúgio sereno no nosso refúgio rural. Apresentando uma confortável cama de casal e uma casa de banho privativa, este espaço oferece o equilíbrio perfeito entre conforto e tranquilidade. Mergulhe na atmosfera pacífica do campo, criando um refúgio ideal para uma estadia tranquila."
+                "description": "Bem-vindo ao quarto Passarinhos, um lugar sereno no nosso refúgio rural. Apresentando uma confortável cama de casal e uma casa de banho privativa, este espaço oferece o equilíbrio perfeito entre conforto e tranquilidade. Mergulhe na atmosfera pacífica do campo, criando um refúgio ideal para uma estadia tranquila."
             },
             {
                 "name": "Poço",
-                "description": "Bem-vindo ao quarto Poço único no nosso refúgio rural. Este espaço distintivo apresenta uma mesa exclusiva com um poço subterrâneo, adicionando um toque de novidade à sua estadia. Com uma confortável cama de casal, casa de banho privada e uma sala de estar aconchegante, o quarto Poço oferece uma combinação perfeita de conforto e charme. Mergulhe na atmosfera tranquila do campo, criando um refúgio ideal para uma estadia memorável e relaxante."
+                "description": "Bem-vindo ao quarto Poço, único no nosso refúgio rural. Este espaço distintivo apresenta uma mesa exclusiva com um poço subterrâneo, adicionando um toque de novidade à sua estadia. Com uma confortável cama de casal, casa de banho privada e uma sala de estar aconchegante, o quarto Poço oferece uma combinação perfeita de conforto e charme. Mergulhe na atmosfera tranquila do campo, criando um refúgio ideal para uma estadia memorável e relaxante."
             },
             {
                 "name": "Apartamento",
