@@ -23,6 +23,10 @@
     text-justify: inter-word;
 }
 
+.contactsDiv h1 {
+    font-size: 2.5em;
+}
+
 .contactsDiv ul li {
     margin-top: 2%;
 }

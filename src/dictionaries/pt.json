@@ -13,7 +13,7 @@
       "history": {
         "title": "História",
         "text1": "Bem-vindo ao nosso eterno retiro rural em Alandroal, Alentejo, onde os ecos da história ressoam dentro de um edifício com 300 anos. Entre num mundo onde cada canto conta uma história, e cada quarto é um capítulo na narrativa do nosso estabelecimento único. Explore o extraordinário no nosso museu no local, um tesouro com uma vasta coleção de artefactos de todo o mundo, oferecendo uma jornada fascinante pelas eras.",
-        "text2": "Os nossos 16 quartos são adornados com charme rústico e antigo, cada um uma peça distinta de nossa herança. Ao percorrer nossos corredores históricos, o passado ganha vida, e cada quarto sussurra sua própria história. Reserve um momento para relaxar na nossa bela piscina ou encontre a serenidade nas nossas áreas designadas para relaxamento e fumantes, tudo enquanto aprecia as vistas pitorescas da paisagem circundante. Comece o dia com o delicioso aroma de um pequeno almoço recém-preparado, preparando o cenário para um dia de exploração e relaxamento. no nosso refúgio rural, convidamos não apenas a experimentar a tranquilidade do Alentejo, mas também embarcar numa jornada global pelas eras, onde cada quarto desvenda uma história única de cantos distantes do mundo."
+        "text2": "Os nossos 13 quartos são adornados com charme rústico e antigo, cada um uma peça distinta de nossa herança. Ao percorrer nossos corredores históricos, o passado ganha vida, e cada quarto sussurra sua própria história. Reserve um momento para relaxar na nossa bela piscina ou encontre a serenidade nas nossas áreas designadas para relaxamento e fumantes, tudo enquanto aprecia as vistas pitorescas da paisagem circundante. Comece o dia com o delicioso aroma de um pequeno almoço recém-preparado, preparando o cenário para um dia de exploração e relaxamento. no nosso refúgio rural, convidamos não apenas a experimentar a tranquilidade do Alentejo, mas também embarcar numa jornada global pelas eras, onde cada quarto desvenda uma história única de cantos distantes do mundo."
       },
 
       "amenities": {
@@ -32,14 +32,13 @@
           {
             "category": "Comida",
             "items": [
-              "Serviço de quarto"
+              "Pequeno almoço"
             ]
           },
           {
             "category": "Piscina",
             "items": [
-              "Piscina exterior",
-              "Bar de piscina"
+              "Piscina exterior"
             ]
           },
           {

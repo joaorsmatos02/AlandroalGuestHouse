@@ -15,7 +15,7 @@
         "history": {
             "title": "History",
             "text1": "Welcome to our timeless rural retreat in Alandroal, Alentejo, where the echoes of history resonate within a 300-year-old building. Step into a world where every corner tells a story, and each room is a chapter in the narrative of our unique establishment. Delve into the extraordinary at our on-site museum, a treasure trove boasting a vast collection of artifacts from across the globe, offering a fascinating journey through the ages.",
-            "text2": "Our 16 rooms are adorned with rustic, old-school charm, each one a distinctive piece of our heritage. As you wander through our historic corridors, the past comes alive, and every room whispers its own tale. Take a moment to unwind by our beautiful swimming pool, or find serenity in our designated relaxing and smoking areas, all while soaking in the picturesque views of the surrounding countryside. Begin your day with the delightful aroma of a freshly prepared breakfast, setting the tone for a day of exploration and relaxation. At our rural haven, we invite you to not only experience the tranquility of Alentejo but also embark on a global journey through the ages, where each room unfolds a unique story from far-flung corners of the world"
+            "text2": "Our 13 rooms are adorned with rustic, old-school charm, each one a distinctive piece of our heritage. As you wander through our historic corridors, the past comes alive, and every room whispers its own tale. Take a moment to unwind by our beautiful swimming pool, or find serenity in our designated relaxing and smoking areas, all while soaking in the picturesque views of the surrounding countryside. Begin your day with the delightful aroma of a freshly prepared breakfast, setting the tone for a day of exploration and relaxation. At our rural haven, we invite you to not only experience the tranquility of Alentejo but also embark on a global journey through the ages, where each room unfolds a unique story from far-flung corners of the world"
         },
         
         "amenities": {
@@ -34,14 +34,13 @@
             {
                 "category": "Food",
                 "items": [
-                    "Room Service"
+                    "Breakfast"
                 ]
             },
             {
                 "category": "Pool",
                 "items": [
-                    "Exterior Pool",
-                    "Pool Bar"
+                    "Exterior Pool"
                 ]
             },
             {
