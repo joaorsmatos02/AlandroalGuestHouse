@@ -4,7 +4,9 @@ import Link from 'next/link';
 import styles from './Navbar.module.css';
 import Image from 'next/image';
 
-export default function NavBar({ lang, page }: { lang: string; page: string }) {
+export default function NavBar() {
+  const lang = "pt";
+  const page = "";
   const [dictionary, setDictionary] = useState<any>(null);
 
   useEffect(() => {
@@ -43,13 +45,13 @@ export default function NavBar({ lang, page }: { lang: string; page: string }) {
       <div className={`${styles.topBar} ${scrolling ? styles.scrolled : ''}`}>
         <ul className={styles.navigation}>
           <li>
-            <Link href={`/${lang}`}>{dictionary.navbar.about}</Link>
+            <Link href={`/`}>{dictionary.navbar.about}</Link>
           </li>
           <li>
-            <Link href={`/${lang}/rooms/`}>{dictionary.navbar.rooms}</Link>
+            <Link href={`/rooms/`}>{dictionary.navbar.rooms}</Link>
           </li>
           <li>
-            <Link href={`/${lang}/museum/`}>{dictionary.navbar.museum}</Link>
+            <Link href={`/museum/`}>{dictionary.navbar.museum}</Link>
           </li>
         </ul>
         <Image

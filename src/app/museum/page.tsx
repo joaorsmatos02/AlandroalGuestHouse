@@ -2,13 +2,15 @@ import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/Navbar'
 import styles from './museum.module.css'
 
-export default async function Museum({ params: { lang } }: { params: { lang: string } }) {
+export default async function Museum() {
+
+    const lang = "pt";
 
     const dictionary = await import(`@/dictionaries/${lang}.json`);
 
   return (
     <div>
-        <NavBar lang={lang} page="museum"/>
+        <NavBar/>
 
         <div className={styles.background}>
             <h1>{dictionary.museum.title}</h1>

@@ -4,7 +4,8 @@ import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/Navbar'
 import styles from './rooms.module.css'
 
-export default function Rooms({ params: { lang } }: { params: { lang: string } }) {
+export default function Rooms() {
+    const lang = "pt";
     const [dictionary, setDictionary] = useState<any>(null);
 
     useEffect(() => {
@@ -69,7 +70,7 @@ export default function Rooms({ params: { lang } }: { params: { lang: string } }
 
   return (
     <div>
-        <NavBar lang={lang} page="rooms"/>
+        <NavBar/>
         
         <div className={styles.secondDiv}>
 
