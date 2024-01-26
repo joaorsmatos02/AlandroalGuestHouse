@@ -303,6 +303,7 @@
 
     .historyDiv {
         width: 100%;
+        margin-bottom: 1em;
     }
 
     .secondBackground {
@@ -313,5 +314,9 @@
 
     .museumDiv {
         background-position: center;
+    }
+
+    .contactsDiv {
+        width: 100%;
     }
 }

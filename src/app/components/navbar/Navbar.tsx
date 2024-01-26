@@ -56,14 +56,9 @@ export default function NavBar({page} : {page : string}) {
           </ul>
         </div>
         <Link href={"/"}>
-          <img
+          <img className={styles.img}
             src="/images/Rural_Alberto_Logo.png"
             alt="Logo"
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'contain',
-            }}
           />
         </Link>
         <div className={`${styles.navigationWrapper} ${styles.navigationWrapperLanguages}`}>
