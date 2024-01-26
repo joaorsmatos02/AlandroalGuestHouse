@@ -53,15 +53,17 @@ export default function NavBar({page} : {page : string}) {
             <Link href={`/museum/`}>{dictionary.navbar.museum}</Link>
           </li>
         </ul>
-        <img
-          src="/images/Rural_Alberto_Logo.png"
-          alt="Logo"
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'contain',
-          }}
-        />
+        <Link href={"/"}>
+          <img
+            src="/images/Rural_Alberto_Logo.png"
+            alt="Logo"
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'contain',
+            }}
+          />
+        </Link>
         <ul className={styles.navigation}>
           <li>
             <Link href={`/pt/${page}`}>pt</Link>
