@@ -12,7 +12,7 @@
 
 .background h1 {
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5em;
     font-size: 2em;
 }
 
@@ -23,8 +23,8 @@
 /**********************************************************************/
 
 .secondDiv {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 90vh;
     margin-bottom: 5em;
     color: black;
@@ -287,4 +287,31 @@
     background-attachment: local;
     background-size:cover;
     width:100%
+}
+
+@media (max-width: 1100px) {
+    .infoWrapper {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .photo {
+        margin-left: 0;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+
+    .historyDiv {
+        width: 100%;
+    }
+
+    .secondBackground {
+        width: 100%;
+        background-position: left top;
+        background-size: auto 100%;
+    }
+
+    .museumDiv {
+        background-position: center;
+    }
 }
