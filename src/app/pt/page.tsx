@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Footer from '@/app/components/footer/Footer';
-import NavBar from '@/app/components/navbar/Navbar'
+import Footer from '@/app/pt/components/footer/Footer';
+import NavBar from '@/app/pt/components/navbar/Navbar'
 import styles from './page.module.css'
 
 export default async function Page() {  
@@ -106,7 +106,7 @@ export default async function Page() {
                     </div>
                 </div>
 
-                <Link href={`/museum/`}>
+                <Link href={`/pt/museum/`}>
                     <div className={styles.museumDiv}>
                         <h1>{dictionary.about.museum}</h1>
                     </div>

@@ -4,8 +4,8 @@ import Link from 'next/link';
 import styles from './Navbar.module.css';
 
 export default function NavBar({page} : {page : string}) {
+  
   const lang = "pt";
-
   const [dictionary, setDictionary] = useState<any>(null);
 
   useEffect(() => {
@@ -45,13 +45,13 @@ export default function NavBar({page} : {page : string}) {
         <div className={styles.navigationWrapper}>
           <ul className={styles.navigation}>
             <li>
-              <Link href={`/`}>{dictionary.navbar.about}</Link>
+              <Link href={`/pt/`}>{dictionary.navbar.about}</Link>
             </li>
             <li>
-              <Link href={`/rooms/`}>{dictionary.navbar.rooms}</Link>
+              <Link href={`/pt/rooms/`}>{dictionary.navbar.rooms}</Link>
             </li>
             <li>
-              <Link href={`/museum/`}>{dictionary.navbar.museum}</Link>
+              <Link href={`/pt/museum/`}>{dictionary.navbar.museum}</Link>
             </li>
           </ul>
         </div>
