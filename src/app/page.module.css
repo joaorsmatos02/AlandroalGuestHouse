@@ -319,4 +319,13 @@
     .contactsDiv {
         width: 100%;
     }
+
+    .checklistWrapper { 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .checklistColumn {
+        width: 100%;
+    }
 }
