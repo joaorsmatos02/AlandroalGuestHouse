@@ -70,7 +70,7 @@ export default function Rooms() {
 
   return (
     <div>
-        <NavBar/>
+        <NavBar page="rooms"/>
         
         <div className={styles.secondDiv}>
 

@@ -2,11 +2,10 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
-import Image from 'next/image';
 
-export default function NavBar() {
+export default function NavBar({page} : {page : string}) {
   const lang = "pt";
-  const page = "";
+
   const [dictionary, setDictionary] = useState<any>(null);
 
   useEffect(() => {
@@ -54,12 +53,14 @@ export default function NavBar() {
             <Link href={`/museum/`}>{dictionary.navbar.museum}</Link>
           </li>
         </ul>
-        <Image
+        <img
           src="/images/Rural_Alberto_Logo.png"
           alt="Logo"
-          layout="fill"
-          objectFit="contain"
-          style={{ padding: '1em', zIndex: '-1' }}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+          }}
         />
         <ul className={styles.navigation}>
           <li>
