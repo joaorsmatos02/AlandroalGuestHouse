@@ -42,17 +42,19 @@ export default function NavBar({page} : {page : string}) {
   return (
     <div>
       <div className={`${styles.topBar} ${scrolling ? styles.scrolled : ''}`}>
-        <ul className={styles.navigation}>
-          <li>
-            <Link href={`/`}>{dictionary.navbar.about}</Link>
-          </li>
-          <li>
-            <Link href={`/rooms/`}>{dictionary.navbar.rooms}</Link>
-          </li>
-          <li>
-            <Link href={`/museum/`}>{dictionary.navbar.museum}</Link>
-          </li>
-        </ul>
+        <div className={styles.navigationWrapper}>
+          <ul className={styles.navigation}>
+            <li>
+              <Link href={`/`}>{dictionary.navbar.about}</Link>
+            </li>
+            <li>
+              <Link href={`/rooms/`}>{dictionary.navbar.rooms}</Link>
+            </li>
+            <li>
+              <Link href={`/museum/`}>{dictionary.navbar.museum}</Link>
+            </li>
+          </ul>
+        </div>
         <Link href={"/"}>
           <img
             src="/images/Rural_Alberto_Logo.png"
@@ -64,17 +66,19 @@ export default function NavBar({page} : {page : string}) {
             }}
           />
         </Link>
-        <ul className={styles.navigation}>
-          <li>
-            <Link href={`/pt/${page}`}>pt</Link>
-          </li>
-          <li>
-            <Link href={`/en/${page}`}>en</Link>
-          </li>
-          <li>
-            <Link href={`/fr/${page}`}>fr</Link>
-          </li>
-        </ul>
+        <div className={`${styles.navigationWrapper} ${styles.navigationWrapperLanguages}`}>
+          <ul className={styles.navigation}>
+            <li>
+              <Link href={`/pt/${page}`}>pt</Link>
+            </li>
+            <li>
+              <Link href={`/en/${page}`}>en</Link>
+            </li>
+            <li>
+              <Link href={`/fr/${page}`}>fr</Link>
+            </li>
+          </ul>
+        </div>
       </div>
       {scrolling && <div className={styles.placeholder} />}
     </div>
