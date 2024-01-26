@@ -189,6 +189,11 @@
         margin-bottom: 0;
     }
 
+    .secondDiv {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     .room {
         margin-left: 0;
         width: 100%;

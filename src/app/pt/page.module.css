@@ -290,6 +290,12 @@
 }
 
 @media (max-width: 1100px) {
+
+    .secondDiv {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     .infoWrapper {
         flex-direction: column;
         margin-bottom: 0;
