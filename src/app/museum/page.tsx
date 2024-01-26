@@ -10,7 +10,7 @@ export default async function Museum() {
 
   return (
     <div>
-        <NavBar/>
+        <NavBar page="museum"/>
 
         <div className={styles.background}>
             <h1>{dictionary.museum.title}</h1>

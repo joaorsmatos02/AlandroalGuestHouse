@@ -1,14 +1,12 @@
-import Image from 'next/image';
-
 export default function Footer() {
 
   return (
-    <Image
+    <img
       src="/Footer.jpg"
       alt="footer"
       width={0}
       height={0}
-      layout="responsive"
+      style={{ width: '100%', height: 'auto' }}
     />
   );
 }
