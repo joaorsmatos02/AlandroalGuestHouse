@@ -50,7 +50,7 @@ export default async function Page() {
                         <h1>{dictionary.about.amenities.title}</h1>
                         <div className={styles.checklistWrapper}>
                             <div className={styles.checklistColumn}>
-                            <h2><img src='info.png' className={styles.icon}/> {dictionary.about.amenities.checklist[0].category}</h2>
+                            <h2><img src='/info.png' className={styles.icon}/> {dictionary.about.amenities.checklist[0].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[0].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[0].items[1]}</li>
@@ -58,11 +58,11 @@ export default async function Page() {
                                     <li>{dictionary.about.amenities.checklist[0].items[3]}</li>
                                     <li>{dictionary.about.amenities.checklist[0].items[4]}</li>
                                 </ul>
-                                <h2><img src='restaurant.png' className={styles.icon}/> {dictionary.about.amenities.checklist[1].category}</h2>
+                                <h2><img src='/restaurant.png' className={styles.icon}/> {dictionary.about.amenities.checklist[1].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[1].items[0]}</li>
                                 </ul>
-                                <h2><img src='swimming.png' className={styles.icon}/> {dictionary.about.amenities.checklist[2].category}</h2>
+                                <h2><img src='/swimming.png' className={styles.icon}/> {dictionary.about.amenities.checklist[2].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[2].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[2].items[1]}</li>
@@ -70,12 +70,12 @@ export default async function Page() {
                             </div>
 
                             <div className={styles.checklistColumn}>
-                                <h2><img src='monitor.png' className={styles.icon}/>{dictionary.about.amenities.checklist[3].category}</h2>
+                                <h2><img src='/monitor.png' className={styles.icon}/>{dictionary.about.amenities.checklist[3].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[3].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[3].items[1]}</li>
                                 </ul>
-                                <h2><img src='bathtub.png' className={styles.icon}/>{dictionary.about.amenities.checklist[4].category}</h2>
+                                <h2><img src='/bathtub.png' className={styles.icon}/>{dictionary.about.amenities.checklist[4].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[4].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[4].items[1]}</li>
@@ -83,23 +83,23 @@ export default async function Page() {
                                     <li>{dictionary.about.amenities.checklist[4].items[3]}</li>
                                     <li>{dictionary.about.amenities.checklist[4].items[4]}</li>
                                 </ul>
-                                <h2><img src='clean.png' className={styles.icon}/>{dictionary.about.amenities.checklist[5].category}</h2>
-                                <ul>
-                                    <li>{dictionary.about.amenities.checklist[5].items[0]}</li>
-                                </ul>
                             </div>
 
                             <div className={styles.checklistColumn}>
-                                <h2><img src='bed.png' className={styles.icon}/>{dictionary.about.amenities.checklist[6].category}</h2>
+                                <h2><img src='/bed.png' className={styles.icon}/>{dictionary.about.amenities.checklist[6].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[6].items[0]}</li>
                                 </ul>
-                                <h2><img src='garden.png' className={styles.icon}/>{dictionary.about.amenities.checklist[7].category}</h2>
+                                <h2><img src='/garden.png' className={styles.icon}/>{dictionary.about.amenities.checklist[7].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[7].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[7].items[1]}</li>
                                     <li>{dictionary.about.amenities.checklist[7].items[2]}</li>
                                     <li>{dictionary.about.amenities.checklist[7].items[3]}</li>
+                                </ul>
+                                <h2><img src='/clean.png' className={styles.icon}/>{dictionary.about.amenities.checklist[5].category}</h2>
+                                <ul>
+                                    <li>{dictionary.about.amenities.checklist[5].items[0]}</li>
                                 </ul>
                             </div>
                         </div>
