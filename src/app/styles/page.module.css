@@ -290,6 +290,7 @@
 }
 
 @media (max-width: 1100px) {
+
     .secondDiv {
         margin-right: 0;
         margin-left: 0;
@@ -321,16 +322,25 @@
         background-position: center;
     }
 
+    .museumDiv h1 {
+        font-size: 2em;
+    }
+
     .contactsDiv {
         width: 100%;
     }
 
     .checklistWrapper { 
-        flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .checklistColumn {
-        width: 100%;
+        min-width: 250px;
+    }
+
+    .photo7 {
+        max-height: 10em;
+        background-position: center bottom;
     }
 }

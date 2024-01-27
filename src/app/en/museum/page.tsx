@@ -1,6 +1,6 @@
 import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/Navbar'
-import styles from './museum.module.css'
+import styles from '@/app/styles/museum.module.css'
 
 export default async function Museum() {
 

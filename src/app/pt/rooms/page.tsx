@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/Navbar'
-import styles from './rooms.module.css'
+import styles from '@/app/styles/rooms.module.css'
 
 export default function Rooms() {
     const lang = "pt";

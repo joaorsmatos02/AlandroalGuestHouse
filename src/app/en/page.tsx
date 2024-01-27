@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Footer from '@/app/en/components/footer/Footer';
 import NavBar from '@/app/en/components/navbar/Navbar'
-import styles from './page.module.css'
+import styles from '@/app/styles/page.module.css'
 
 export default async function Page() {  
 

@@ -1,3 +1,5 @@
+import styles from "@/app/styles/footer.module.css"
+
 export default function Footer() {
 
   return (
@@ -6,7 +8,7 @@ export default function Footer() {
       alt="footer"
       width={0}
       height={0}
-      style={{ width: '100%', height: 'auto' }}
+      className={styles.footer}
     />
   );
 }
