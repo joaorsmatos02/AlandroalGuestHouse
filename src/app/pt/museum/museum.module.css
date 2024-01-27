@@ -166,7 +166,6 @@
 }
 
 .photo9 {
-    margin-left: 1em;
     height: 35vw;
     background: url('/images/Museu/161.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -183,7 +182,6 @@
 }
 
 .photo11 {
-    margin-left: 1em;
     height: 35vw;
     background: url('/images/Museu/162.jpg') no-repeat center center fixed;
     background-attachment: local;
@@ -208,14 +206,11 @@
         margin-left: 0;
         margin-bottom: 1em;
         width: 100%;
-        min-height: 25vw;
+        min-height: 70vw;
     }
 
     .secondBackground {
-        width: 100%;
-        background-position: left top;
-        background-size: auto 100%;
-        margin-bottom: 1em;
+        height: 0;
     }
 
     .pricingDiv {

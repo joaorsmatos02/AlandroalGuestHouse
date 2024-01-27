@@ -322,16 +322,20 @@
         background-position: center;
     }
 
+    .museumDiv h1 {
+        font-size: 2em;
+    }
+
     .contactsDiv {
         width: 100%;
     }
 
     .checklistWrapper { 
-        flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .checklistColumn {
-        width: 100%;
+        min-width: 250px;
     }
 }
