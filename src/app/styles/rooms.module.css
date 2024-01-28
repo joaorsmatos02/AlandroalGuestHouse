@@ -1,6 +1,6 @@
 .secondDiv {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5em;
     color: black;
 }
@@ -172,7 +172,7 @@
 }
 
 .room13 {
-    background: url('/images/13_poço/90.jpg') no-repeat center center fixed;
+    background: url('/images/13_poco/90.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
 }
@@ -181,4 +181,42 @@
     background: url('/images/14_Apartamento/121.jpg') no-repeat center center fixed;
     background-attachment: local;
     background-size:cover;
+}
+
+@media (max-width: 1100px) {
+    .infoWrapper {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .secondDiv {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .room {
+        margin-left: 0;
+        width: 100%;
+        min-height: 70vw;
+    }
+
+    .text {
+        width: 100%;
+        height: 30em;
+    }
+
+    .secondBackground {
+        width: 100%;
+        background-position: left top;
+        background-size: auto 100%;
+        margin-bottom: 1em;
+    }
+
+    .room0 {
+        margin-bottom: 1em;
+    }
+
+    .contactsDiv {
+        width: 100%;
+    }
 }

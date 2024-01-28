@@ -1,15 +1,16 @@
 import Link from 'next/link';
-import Footer from '@/app/[lang]/components/footer/Footer';
-import NavBar from '@/app/[lang]/components/navbar/Navbar'
-import styles from './page.module.css'
+import Footer from '@/app/components/footer/Footer';
+import NavBar from '@/app/components/navbar/Navbar'
+import styles from '@/app/styles/page.module.css'
+import {lang} from "./lang"
 
-export default async function Page({ params: { lang } }: { params: { lang: string } }) {  
-    
+export default async function Page() {  
+
     const dictionary = await import(`@/dictionaries/${lang}.json`);
 
     return (
     <div>
-        <NavBar lang={lang} page=""/>
+        <NavBar page="" lang={lang}/>
 
         <div className={styles.background}>
             <h1>Alandroal GuestHouse</h1>
@@ -49,7 +50,7 @@ export default async function Page({ params: { lang } }: { params: { lang: strin
                         <h1>{dictionary.about.amenities.title}</h1>
                         <div className={styles.checklistWrapper}>
                             <div className={styles.checklistColumn}>
-                            <h2><img src='info.png' className={styles.icon}/> {dictionary.about.amenities.checklist[0].category}</h2>
+                            <h2><img src='/info.png' className={styles.icon}/> {dictionary.about.amenities.checklist[0].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[0].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[0].items[1]}</li>
@@ -57,11 +58,11 @@ export default async function Page({ params: { lang } }: { params: { lang: strin
                                     <li>{dictionary.about.amenities.checklist[0].items[3]}</li>
                                     <li>{dictionary.about.amenities.checklist[0].items[4]}</li>
                                 </ul>
-                                <h2><img src='restaurant.png' className={styles.icon}/> {dictionary.about.amenities.checklist[1].category}</h2>
+                                <h2><img src='/restaurant.png' className={styles.icon}/> {dictionary.about.amenities.checklist[1].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[1].items[0]}</li>
                                 </ul>
-                                <h2><img src='swimming.png' className={styles.icon}/> {dictionary.about.amenities.checklist[2].category}</h2>
+                                <h2><img src='/swimming.png' className={styles.icon}/> {dictionary.about.amenities.checklist[2].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[2].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[2].items[1]}</li>
@@ -69,12 +70,12 @@ export default async function Page({ params: { lang } }: { params: { lang: strin
                             </div>
 
                             <div className={styles.checklistColumn}>
-                                <h2><img src='monitor.png' className={styles.icon}/>{dictionary.about.amenities.checklist[3].category}</h2>
+                                <h2><img src='/monitor.png' className={styles.icon}/>{dictionary.about.amenities.checklist[3].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[3].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[3].items[1]}</li>
                                 </ul>
-                                <h2><img src='bathtub.png' className={styles.icon}/>{dictionary.about.amenities.checklist[4].category}</h2>
+                                <h2><img src='/bathtub.png' className={styles.icon}/>{dictionary.about.amenities.checklist[4].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[4].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[4].items[1]}</li>
@@ -82,23 +83,23 @@ export default async function Page({ params: { lang } }: { params: { lang: strin
                                     <li>{dictionary.about.amenities.checklist[4].items[3]}</li>
                                     <li>{dictionary.about.amenities.checklist[4].items[4]}</li>
                                 </ul>
-                                <h2><img src='clean.png' className={styles.icon}/>{dictionary.about.amenities.checklist[5].category}</h2>
-                                <ul>
-                                    <li>{dictionary.about.amenities.checklist[5].items[0]}</li>
-                                </ul>
                             </div>
 
                             <div className={styles.checklistColumn}>
-                                <h2><img src='bed.png' className={styles.icon}/>{dictionary.about.amenities.checklist[6].category}</h2>
+                                <h2><img src='/bed.png' className={styles.icon}/>{dictionary.about.amenities.checklist[6].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[6].items[0]}</li>
                                 </ul>
-                                <h2><img src='garden.png' className={styles.icon}/>{dictionary.about.amenities.checklist[7].category}</h2>
+                                <h2><img src='/garden.png' className={styles.icon}/>{dictionary.about.amenities.checklist[7].category}</h2>
                                 <ul>
                                     <li>{dictionary.about.amenities.checklist[7].items[0]}</li>
                                     <li>{dictionary.about.amenities.checklist[7].items[1]}</li>
                                     <li>{dictionary.about.amenities.checklist[7].items[2]}</li>
                                     <li>{dictionary.about.amenities.checklist[7].items[3]}</li>
+                                </ul>
+                                <h2><img src='/clean.png' className={styles.icon}/>{dictionary.about.amenities.checklist[5].category}</h2>
+                                <ul>
+                                    <li>{dictionary.about.amenities.checklist[5].items[0]}</li>
                                 </ul>
                             </div>
                         </div>

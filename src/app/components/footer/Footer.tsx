@@ -1,14 +1,14 @@
-import Image from 'next/image';
+import styles from "@/app/styles/footer.module.css"
 
 export default function Footer() {
 
   return (
-    <Image
+    <img
       src="/Footer.jpg"
       alt="footer"
       width={0}
       height={0}
-      layout="responsive"
+      className={styles.footer}
     />
   );
 }

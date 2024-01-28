@@ -1,0 +1,154 @@
+{
+  "navbar": {
+    "about": "Sur nous",
+    "rooms": "Chambres",
+    "museum": "Musée"
+  },
+  "contacts": "Appelez-nous et réservez directement",
+  "contactWarning": "(appel réseau mobile national)",
+  "about": {
+    "mainSubscript": "Hôtel de Charme à la Campagne",
+    "history": {
+      "title": "Histoire",
+      "text1": "Bienvenue à notre éternel refuge à Alandroal, Alentejo, où les échos de l’histoire résonnent dans un bâtiment vieux de trois siècles. Entrez dans un monde dans lequel chaque recoin raconte une histoire et chaque chambre est un livre dans la narrative de notre établissement unique. Explorez l’extraordinaire dans notre musée sur place, un trésor avec une vaste collection d’objets de partout dans le monde, qui vous offre un voyage fascinant à travers différents âges.",
+      "text2": "Nos 16 chambres reflètent un charme rustique et ancien, dont chacune est une pièce distincte de notre héritage. En parcourant nos couloirs historiques, le passé gagne vie et chaque chambre murmure sa propre histoire. Réservez un moment pour vous laisser aller dans la notre belle piscine ou trouvez la sérénité dans nos lieux de détente et coins fumeurs, tout en appréciant les vues pittoresques du paysage qui vous entoure. Commencez votre journée par l’arôme délicieux d’un petit déjeuner qui vient d’être préparé, une agréable introduction pour vous préparer à une journée de découverte et détente. Dans notre refuge à la campagne, nous vous invitons non seulement à jouir de la tranquillité de l’Alentejo, mais aussi à embarquer dans un voyage global à travers différents âges, où chaque chambre révèle une histoire unique de contrées lointaines."
+    },
+    "amenities": {
+      "title": "Commodités",
+      "checklist": [
+        {
+          "category": "Informations Générales",
+          "items": [
+            "Air conditionné",
+            "Chauffage",
+            "Espaces fumeurs",
+            "Chambres familiales",
+            "Chambres partagées"
+          ]
+        },
+        {
+          "category": "Restauration",
+          "items": [
+            "Service de chambre"
+          ]
+        },
+        {
+          "category": "Piscine",
+          "items": [
+            "Piscine extérieure",
+            "Bar de la piscine"
+          ]
+        },
+        {
+          "category": "Technologie",
+          "items": [
+            "Accès Internet gratuit",
+            "Télévision"
+          ]
+        },
+        {
+          "category": "Salles de bains",
+          "items": [
+            "Papier hygiénique",
+            "Serviettes",
+            "Baignoire / Douche",
+            "Salle de bains privative",
+            "Sèche-cheveux"
+          ]
+        },
+        {
+          "category": "Nettoyage",
+          "items": [
+            "Nettoyage gratuit chaque jour"
+          ]
+        },
+        {
+          "category": "Chambre",
+          "items": [
+            "Draps"
+          ]
+        },
+        {
+          "category": "Extérieur",
+          "items": [
+            "Mobilier extérieur",
+            "Terrasse",
+            "Jardin"
+          ]
+        }
+      ]
+    },
+    "museum": "Visitez notre musée",
+    "gallery": "Galerie"
+  },
+  "museum": {
+    "title": "Musée",
+    "intro": "Bienvenue à notre extraordinaire musée, un voyage envoûtant à travers les différents âges qui transcende les frontières et renferme l’essence du patrimoine global. Situé à l’intérieur des murs historiques de notre bâtiment vieux de trois siècles, notre musée témoigne de la richesse et de la diversité des cultures autour du monde. Avec une vaste collection d’objets, chacun avec sa propre histoire, nos expositions vous invitent à explorer la beauté, l’art et l’importance historique de civilisations qui englobent des continents.",
+    "exhibition": {
+      "title": "Exposition",
+      "description": "Plongez dans une expérience préparée avec soin, qui révèle les mystères de civilisations anciennes, met en valeur de l’artisanat sophistiqué et célèbre l’histoire de l’homme. Des objets qui font écho de la majesté d’empires anciens, de pair avec des objets qui reflètent la vie journalière de différentes cultures, notre musée vous offre une opportunité unique pour vous connecter au passé et apprécier la tapisserie globale qui a donné forme à notre monde, que vous soyez un enthousiaste de l’histoire ou un explorateur curieux."
+    }
+  },
+  "rooms": {
+    "intro1": "Jouissez du sommet de confort et de luxe de notre hébergement exceptionnel à Alandroal, qui établit de nouveaux standards pour les meilleures chambres de la région. Méticuleusement pensées, nos chambres mélangent commodités tout à fait modernes avec un charme historique, créant un refuge incomparable en Alentejo.",
+    "intro2": "Chaque espace est un sanctuaire de tranquillité, qui promet un expérience au delà du simple hébergement. Découvrez le summum du confort et de la sophistication, qui transforme votre séjour chez nous en un voyage inoubliable au cœur d’Alandroal.",
+    "roomDetails": [
+      {
+        "name": "Colombe (Pomba)",
+        "description": "Bienvenue à Colombe (Pomba), notre refuge rustique à Alandroal. Cette chambre accueillante vous offre deux lits individuels, une cuisine bien équipée et un élégant salon avec des canapés en cuir. Sortez sur le balcon pour une vue éblouissante. Jouissez de la tranquillité à la campagne avec du style. Cet espace accueillant a aussi une salle de bains équipée. La cuisine totalement équipée vous permet de préparer des repas avec tout le confort. Jouissez de la tranquillité du tourisme à la campagne dans ce refuge charmant."
+      },
+      {
+        "name": "Hollywood",
+        "description": "Vivez le glamour de Hollywood dans notre chambre exclusive. Décoré avec des souvenirs iconiques, cet espace unique a un confortable lit double, une salle de bains privative et d’élégantes douches. Plongez dans la fascination du monde du spectacle tout en restant dans la tranquillité des alentours campagnards. Choyez-vous avec un séjour digne des stars dans notre exclusif Hollywood. Jouissez d’un séjour unique dans notre refuge thématique Hollywood."
+      },
+      {
+        "name": "Bleue (Blue)",
+        "description": "Entrez dans l’atmosphère paisible de notre chambre Bleue (Blue) dans notre refuge à la campagne. Avec deux confortables lits individuels et une salle de bains privative, cet espace accueillant est immergé dans des tons apaisants de bleu. Jouissez de la tranquillité du charme campagnard dans refuge décoré avec soin, qui vous offre un refuge paisible pour votre séjour."
+      },
+      {
+        "name": "Dorée (Dourado)",
+        "description": "Choyez-vous avec le luxe de notre chambre Dorée (Dourado), qui a un confortable lit double et salle de bains privative, le tout avec une resplendissante décoration dorée. Jouissez d’un séjour opulent et unique, où le charme de la campagne s’allie avec l’élégance luxueuse."
+      },
+      {
+        "name": "Rose (Rosa)",
+        "description": "Bienvenue à la luxueuse chambre Rose (Rosa) dans notre refuge à la campagne. Jouissez d’un douillet lit double et d’une salle de bains privative et plongez dans une charmante décoration toute en rose. Jouissez d’un séjour opulent et unique, où le luxe se mélange parfaitement avec le charme de la campagne."
+      },
+      {
+        "name": "Rouge (Vermelho)",
+        "description": "Découvrez le luxe dans la chambre Rouge (Vermelho) de notre refuge à la campagne, qui vous offre un confortable lit double et une salle de bains privative, le tout assorti d’une décoration captivante intégralement en rouge. Plongez dans l’opulence tout en jouissant d’une combinaison parfaite de confort et de charme campagnard. Votre séjour promet une escapade mémorable et languissante."
+      },
+      {
+        "name": "Verte (Verde)",
+        "description": "Choyez-vous avec le luxe de notre chambre Verte (Verde) , qui a deux confortables lits individuels et une salle de bains privative, le tout assorti d’une décoration d’un vert apaisant. Plongez dans un mélange unique de charme campagnard et opulence, qui crée l’escapade parfaite pour la détente."
+      },
+      {
+        "name": "Miroirs (Espelhos)",
+        "description": "Bienvenue à la chambre Miroirs (Espelhos) dans notre refuge à la campagne. Avec un confortable lit double et une salle de bains privative, cet espace accueillant vous offre un refuge serein au cœur de la campagne. Plongez dans la tranquillité réfléchissante de notre chambre soigneusement décorée, où le confort moderne s’allie avec le charme de la vie à la campagne."
+      },
+      {
+        "name": "Xana",
+        "description": "Bienvenue à la chambre Xana, unique dans notre refuge à la campagne. Avec deux lits et une salle de bains privative, cet espace charmant vous offre du confort et de la tranquillité. Jouissez d’une vue imprenable qui mélange le charme historique avec la sérénité de la vie à la campagne pour un séjour inoubliable."
+      },
+      {
+        "name": "Xana Couple (Xana Casal)",
+        "description": "Bienvenue à la chambre Xana Couple (Xana Casal), un refuge douillet pour couples dans notre refuge à la campagne. Avec un confortable lit double et une salle de bains privative, cet espace vous offre une combinaison parfaite de confort et sérénité. Jouissez d’une vue unique, qui ajoute une touche de magie à votre escapade romantique à la campagne."
+      },
+      {
+        "name": "Plâtre (Gessos) ",
+        "description": "Bienvenue à la chambre Plâtre (Gessos), un coin paisible dans notre refuge à la campagne. Avec un confortable lit double et une salle de bains privative, cet espace vous offre une combinaison parfaite de confort et sérénité. Plongez dans l’atmosphère paisible de la campagne, le refuge idéal pour un séjour de détente."
+      },
+      {
+        "name": "Oisillons (Passarinhos)",
+        "description": "Bienvenue à la chambre Oisillons (Passarinhos), un coin de sérénité dans notre refuge à la campagne. Avec un confortable lit double et une salle de bains privative, cet espace vous offre un équilibre parfait entre confort et tranquillité. Plongez dans l’atmosphère paisible de la campagne, le refuge idéal pour un séjour tranquille."
+      },
+      {
+        "name": "Puits (Poço)",
+        "description": "Bienvenue à la chambre Puits (Poço), unique dans notre refuge à la campagne. Cet espace distinctif a une table singulière avec un puits souterrain, qui ajoute une touche de nouveauté à votre séjour. Avec un confortable lit double, une salle de bains privative et un accueillant séjour, la chambre Puits vous offre la combinaison parfaite de confort et charme. Plongez dans l’atmosphère paisible de la campagne, le refuge idéal pour un séjour mémorable et de détente."
+      },
+      {
+        "name": "Appartement (Apartamento)",
+        "description": "Bienvenue à notre charmant appartement, justement nommé Appartement (Apartamento). Cet espace charmant a deux lits individuels, une cuisine totalement équipée et une salle de bains privative. Plongez dans l’atmosphère confortable de ce logement unique qui vous offre une combinaison parfaite de commodité et de tranquillité. Que vous soyez en train d’explorer les possibilités culinaires de la cuisine ou simplement en train de vous détendre dans cet espace accueillant, l’Appartement vous assure un séjour charmant et mémorable dans notre refuge à la campagne."
+      }
+    ]
+  }
+}

@@ -1,10 +1,12 @@
 "use client"
 import { useEffect, useState } from 'react';
-import Footer from '../components/footer/Footer';
-import NavBar from '../components/navbar/Navbar'
-import styles from './rooms.module.css'
+import Footer from '@/app/components/footer/Footer';
+import NavBar from '@/app/components//navbar/Navbar'
+import styles from '@/app/styles/rooms.module.css'
+import {lang} from "../lang"
 
-export default function Rooms({ params: { lang } }: { params: { lang: string } }) {
+export default function Rooms() {
+
     const [dictionary, setDictionary] = useState<any>(null);
 
     useEffect(() => {
@@ -33,7 +35,7 @@ export default function Rooms({ params: { lang } }: { params: { lang: string } }
         room10: ['/images/10_Xana Casal/72.jpg', '/images/10_Xana Casal/69.jpg', '/images/10_Xana Casal/70.jpg', '/images/10_Xana Casal/71.jpg', '/images/10_Xana Casal/73.jpg', '/images/10_Xana Casal/75.jpg'],
         room11: ['/images/11_Gessos/76.jpg', '/images/11_Gessos/77.jpg', '/images/11_Gessos/78.jpg', '/images/11_Gessos/79.jpg', '/images/11_Gessos/80.jpg', '/images/11_Gessos/82.jpg'],
         room12: ['/images/12_Passarinhos/84.jpg', '/images/12_Passarinhos/85.jpg', '/images/12_Passarinhos/86.jpg', '/images/12_Passarinhos/87.jpg', '/images/12_Passarinhos/89.jpg'],
-        room13: ['/images/13_poço/90.jpg', '/images/13_poço/91.jpg', '/images/13_poço/92.jpg', '/images/13_poço/93.jpg', '/images/13_poço/94.jpg', '/images/13_poço/149.jpg'],
+        room13: ['/images/13_poco/90.jpg', '/images/13_poco/91.jpg', '/images/13_poco/92.jpg', '/images/13_poco/93.jpg', '/images/13_poco/94.jpg', '/images/13_poco/149.jpg'],
         room14: ['/images/14_Apartamento/121.jpg', '/images/14_Apartamento/119.jpg', '/images/14_Apartamento/123.jpg']
     };
 
@@ -69,7 +71,7 @@ export default function Rooms({ params: { lang } }: { params: { lang: string } }
 
   return (
     <div>
-        <NavBar lang={lang} page="rooms"/>
+        <NavBar page="rooms" lang={lang}/>
         
         <div className={styles.secondDiv}>
 
