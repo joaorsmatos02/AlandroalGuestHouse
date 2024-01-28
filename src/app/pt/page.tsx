@@ -106,7 +106,7 @@ export default async function Page() {
                     </div>
                 </div>
 
-                <Link href={`/pt/museum/`}>
+                <Link href={`/${lang}/museum/`}>
                     <div className={styles.museumDiv}>
                         <h1>{dictionary.about.museum}</h1>
                     </div>

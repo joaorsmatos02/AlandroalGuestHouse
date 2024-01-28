@@ -44,13 +44,13 @@ export default function NavBar({page, lang} : {page : string, lang : string}) {
         <div className={styles.navigationWrapper}>
           <ul className={styles.navigation}>
             <li>
-              <Link href={`/pt/`}>{dictionary.navbar.about}</Link>
+              <Link href={`/${lang}/`}>{dictionary.navbar.about}</Link>
             </li>
             <li>
-              <Link href={`/pt/rooms/`}>{dictionary.navbar.rooms}</Link>
+              <Link href={`/${lang}/rooms/`}>{dictionary.navbar.rooms}</Link>
             </li>
             <li>
-              <Link href={`/pt/museum/`}>{dictionary.navbar.museum}</Link>
+              <Link href={`/${lang}/museum/`}>{dictionary.navbar.museum}</Link>
             </li>
           </ul>
         </div>
