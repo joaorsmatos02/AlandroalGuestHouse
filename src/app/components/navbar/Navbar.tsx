@@ -54,7 +54,7 @@ export default function NavBar({page, lang} : {page : string, lang : string}) {
             </li>
           </ul>
         </div>
-        <Link href={"/"}>
+        <Link href={`/${lang}/`}>
           <img className={styles.img}
             src="/images/Rural_Alberto_Logo.png"
             alt="Logo"

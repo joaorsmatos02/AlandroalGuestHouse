@@ -10,7 +10,7 @@ export default async function Page() {
 
     return (
     <div>
-        <NavBar page="/" lang={lang}/>
+        <NavBar page="" lang={lang}/>
 
         <div className={styles.background}>
             <h1>Alandroal GuestHouse</h1>
