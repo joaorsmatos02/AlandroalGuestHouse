@@ -1,10 +1,9 @@
 import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/Navbar'
 import styles from '@/app/styles/museum.module.css'
+import {lang} from "../lang"
 
 export default async function Museum() {
-
-    const lang = "pt";
 
     const dictionary = await import(`@/dictionaries/${lang}.json`);
 

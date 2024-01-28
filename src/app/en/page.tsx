@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import Footer from '@/app/en/components/footer/Footer';
-import NavBar from '@/app/en/components/navbar/Navbar'
+import Footer from '@/app/pt/components/footer/Footer';
+import NavBar from '@/app/pt/components/navbar/Navbar'
 import styles from '@/app/styles/page.module.css'
+import {lang} from "./lang"
 
 export default async function Page() {  
 
-    const lang = "en"
     const dictionary = await import(`@/dictionaries/${lang}.json`);
 
     return (
@@ -106,7 +106,7 @@ export default async function Page() {
                     </div>
                 </div>
 
-                <Link href={`/en/museum/`}>
+                <Link href={`/pt/museum/`}>
                     <div className={styles.museumDiv}>
                         <h1>{dictionary.about.museum}</h1>
                     </div>

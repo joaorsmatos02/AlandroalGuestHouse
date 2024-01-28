@@ -2,10 +2,10 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from '@/app/styles/navbar.module.css'
+import {lang} from "../../lang"
 
 export default function NavBar({page} : {page : string}) {
   
-  const lang = "en";
   const [dictionary, setDictionary] = useState<any>(null);
 
   useEffect(() => {
@@ -45,13 +45,13 @@ export default function NavBar({page} : {page : string}) {
         <div className={styles.navigationWrapper}>
           <ul className={styles.navigation}>
             <li>
-              <Link href={`/en/`}>{dictionary.navbar.about}</Link>
+              <Link href={`/pt/`}>{dictionary.navbar.about}</Link>
             </li>
             <li>
-              <Link href={`/en/rooms/`}>{dictionary.navbar.rooms}</Link>
+              <Link href={`/pt/rooms/`}>{dictionary.navbar.rooms}</Link>
             </li>
             <li>
-              <Link href={`/en/museum/`}>{dictionary.navbar.museum}</Link>
+              <Link href={`/pt/museum/`}>{dictionary.navbar.museum}</Link>
             </li>
           </ul>
         </div>

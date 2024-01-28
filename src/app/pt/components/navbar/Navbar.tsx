@@ -2,10 +2,10 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from '@/app/styles/navbar.module.css'
+import {lang} from "../../lang"
 
 export default function NavBar({page} : {page : string}) {
   
-  const lang = "pt";
   const [dictionary, setDictionary] = useState<any>(null);
 
   useEffect(() => {

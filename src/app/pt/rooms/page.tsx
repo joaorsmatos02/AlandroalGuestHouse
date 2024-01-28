@@ -3,9 +3,10 @@ import { useEffect, useState } from 'react';
 import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/Navbar'
 import styles from '@/app/styles/rooms.module.css'
+import {lang} from "../lang"
 
 export default function Rooms() {
-    const lang = "pt";
+
     const [dictionary, setDictionary] = useState<any>(null);
 
     useEffect(() => {

@@ -2,10 +2,10 @@ import Link from 'next/link';
 import Footer from '@/app/pt/components/footer/Footer';
 import NavBar from '@/app/pt/components/navbar/Navbar'
 import styles from '@/app/styles/page.module.css'
+import {lang} from "./lang"
 
 export default async function Page() {  
 
-    const lang = "pt"
     const dictionary = await import(`@/dictionaries/${lang}.json`);
 
     return (
