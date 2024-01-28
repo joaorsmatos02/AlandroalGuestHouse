@@ -2,9 +2,8 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from '@/app/styles/navbar.module.css'
-import {lang} from "../../lang"
 
-export default function NavBar({page} : {page : string}) {
+export default function NavBar({page, lang} : {page : string, lang : string}) {
   
   const [dictionary, setDictionary] = useState<any>(null);
 

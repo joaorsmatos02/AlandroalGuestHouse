@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from 'react';
-import Footer from '../components/footer/Footer';
-import NavBar from '../components/navbar/Navbar'
+import Footer from '@/app/components/footer/Footer';
+import NavBar from '@/app/components//navbar/Navbar'
 import styles from '@/app/styles/rooms.module.css'
 import {lang} from "../lang"
 
@@ -71,7 +71,7 @@ export default function Rooms() {
 
   return (
     <div>
-        <NavBar page="rooms"/>
+        <NavBar page="rooms" lang={lang}/>
         
         <div className={styles.secondDiv}>
 

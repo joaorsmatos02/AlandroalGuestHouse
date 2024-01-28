@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Footer from '@/app/pt/components/footer/Footer';
-import NavBar from '@/app/pt/components/navbar/Navbar'
+import Footer from '@/app/components/footer/Footer';
+import NavBar from '@/app/components/navbar/Navbar'
 import styles from '@/app/styles/page.module.css'
 import {lang} from "./lang"
 
@@ -10,7 +10,7 @@ export default async function Page() {
 
     return (
     <div>
-        <NavBar page="/"/>
+        <NavBar page="/" lang={lang}/>
 
         <div className={styles.background}>
             <h1>Alandroal GuestHouse</h1>
